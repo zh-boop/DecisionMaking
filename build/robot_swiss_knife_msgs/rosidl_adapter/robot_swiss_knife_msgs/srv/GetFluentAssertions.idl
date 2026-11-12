@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_swiss_knife_msgs/srv/GetFluentAssertions.srv
+// generated code does not contain a copyright notice
+
+#include "robot_swiss_knife_msgs/msg/Fluent.idl"
+
+module robot_swiss_knife_msgs {
+  module srv {
+    struct GetFluentAssertions_Request {
+      string name;
+    };
+    struct GetFluentAssertions_Response {
+      sequence<robot_swiss_knife_msgs::msg::Fluent> fluents;
+    };
+  };
+};

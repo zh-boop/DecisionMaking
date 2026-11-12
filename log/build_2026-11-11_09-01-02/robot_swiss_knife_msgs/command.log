@@ -1,0 +1,2 @@
+Invoking command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs': /usr/bin/cmake /home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs
+Invoked command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs' returned '1': /usr/bin/cmake /home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs

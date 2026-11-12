@@ -1,0 +1,4 @@
+Invoking command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/robot_swiss_knife_msgs -- -j32 -l32
+Invoked command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/robot_swiss_knife_msgs -- -j32 -l32
+Invoking command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/robot_swiss_knife_msgs
+Invoked command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/robot_swiss_knife_msgs

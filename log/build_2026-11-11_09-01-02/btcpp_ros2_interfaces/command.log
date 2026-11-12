@@ -1,0 +1,1 @@
+Invoking command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces': /usr/bin/cmake /home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces

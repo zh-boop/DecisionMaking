@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_swiss_knife_msgs/srv/CalculatePoseFromCloud.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module robot_swiss_knife_msgs {
+  module srv {
+    struct CalculatePoseFromCloud_Request {
+      sensor_msgs::msg::PointCloud2 point_cloud;
+    };
+    struct CalculatePoseFromCloud_Response {
+      geometry_msgs::msg::PoseStamped pose;
+
+      boolean calculation_successful;
+    };
+  };
+};

@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_swiss_knife_msgs/msg/Object.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "geometry_msgs/msg/Vector3Stamped.idl"
+#include "robot_swiss_knife_msgs/msg/ObjectView.idl"
+#include "sensor_msgs/msg/RegionOfInterest.idl"
+
+module robot_swiss_knife_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message definition adapted from https://github.com/b-it-bots/mas_perception_msgs/blob/noetic/msg/Object.msg")
+    struct Object {
+      @verbatim (language="comment", text=
+        "The pose where the object can be found")
+      geometry_msgs::msg::PoseStamped pose;
+
+      @verbatim (language="comment", text=
+        "The dimensions of the object")
+      geometry_msgs::msg::Vector3Stamped dimensions;
+
+      @verbatim (language="comment", text=
+        "Unique name of the object determined e.g. by the recognition")
+      string name;
+
+      @verbatim (language="comment", text=
+        "Categorization of this object")
+      string category;
+
+      @verbatim (language="comment", text=
+        "The object's ID in a database")
+      int32 database_id;
+
+      @verbatim (language="comment", text=
+        "Probability")
+      float probability;
+
+      @verbatim (language="comment", text=
+        "View representation including an RGB image of the object and a point cloud")
+      robot_swiss_knife_msgs::msg::ObjectView view;
+
+      @verbatim (language="comment", text=
+        "2D bounding box in an image")
+      sensor_msgs::msg::RegionOfInterest roi;
+    };
+  };
+};

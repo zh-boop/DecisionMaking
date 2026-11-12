@@ -1,0 +1,9 @@
+{
+  "package_name": "btcpp_ros2_interfaces",
+  "non_idl_tuples": [
+    "/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces:msg/NodeStatus.msg",
+    "/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces:srv/GetTrees.srv",
+    "/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces:action/ExecuteTree.action",
+    "/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces:action/Sleep.action"
+  ]
+}

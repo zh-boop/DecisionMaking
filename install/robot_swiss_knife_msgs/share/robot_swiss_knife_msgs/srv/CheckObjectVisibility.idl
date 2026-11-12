@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_swiss_knife_msgs/srv/CheckObjectVisibility.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module robot_swiss_knife_msgs {
+  module srv {
+    struct CheckObjectVisibility_Request {
+      sensor_msgs::msg::Image image;
+
+      sequence<string> object_categories;
+    };
+    struct CheckObjectVisibility_Response {
+      sequence<boolean> objects_visible;
+    };
+  };
+};

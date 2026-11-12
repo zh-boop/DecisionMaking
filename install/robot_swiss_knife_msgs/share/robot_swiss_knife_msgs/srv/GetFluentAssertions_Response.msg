@@ -1,0 +1,2 @@
+
+robot_swiss_knife_msgs/Fluent[] fluents

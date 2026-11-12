@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_swiss_knife_msgs/action/QueryVLM.action
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module robot_swiss_knife_msgs {
+  module action {
+    struct QueryVLM_Goal {
+      sensor_msgs::msg::Image image;
+
+      string query;
+    };
+    module QueryVLM_Result_Constants {
+      const int8 QUERY_SUCCESS = 0;
+      const int8 QUERY_FAILURE = 1;
+    };
+    struct QueryVLM_Result {
+      int8 query_status;
+
+      string answer;
+    };
+    struct QueryVLM_Feedback {
+      string feedback;
+    };
+  };
+};

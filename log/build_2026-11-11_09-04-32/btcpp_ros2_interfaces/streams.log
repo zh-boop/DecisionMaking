@@ -1,0 +1,352 @@
+[0.016s] Invoking command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces
+[0.047s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.177s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.273s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.289s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.697s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.853s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.118s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.121s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.291s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.291s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.291s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.291s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.308s] -- Found PythonExtra: .so  
+[1.425s] -- Configuring done
+[1.492s] -- Generating done
+[1.501s] -- Build files have been written to: /home/lucita/ssy236_ws/build/btcpp_ros2_interfaces
+[1.510s] Invoked command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces
+[1.513s] Invoking command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/btcpp_ros2_interfaces -- -j32 -l32
+[1.559s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.569s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.569s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.585s] [  5%] Built target ament_cmake_python_copy_btcpp_ros2_interfaces
+[1.828s] running egg_info
+[1.829s] creating btcpp_ros2_interfaces.egg-info
+[1.829s] writing btcpp_ros2_interfaces.egg-info/PKG-INFO
+[1.830s] writing dependency_links to btcpp_ros2_interfaces.egg-info/dependency_links.txt
+[1.830s] writing top-level names to btcpp_ros2_interfaces.egg-info/top_level.txt
+[1.830s] writing manifest file 'btcpp_ros2_interfaces.egg-info/SOURCES.txt'
+[1.834s] reading manifest file 'btcpp_ros2_interfaces.egg-info/SOURCES.txt'
+[1.835s] writing manifest file 'btcpp_ros2_interfaces.egg-info/SOURCES.txt'
+[1.860s] [  5%] Built target ament_cmake_python_build_btcpp_ros2_interfaces_egg
+[1.934s] [  5%] Built target btcpp_ros2_interfaces__rs
+[2.213s] [  8%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/msg/detail/node_status__functions.c.o[0m
+[2.213s] [  8%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/action/detail/execute_tree__functions.c.o[0m
+[2.213s] [ 10%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/srv/detail/get_trees__functions.c.o[0m
+[2.216s] [ 12%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/action/detail/sleep__functions.c.o[0m
+[2.244s] [ 12%] Built target btcpp_ros2_interfaces__cpp
+[2.255s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.256s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.256s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.347s] [ 19%] [32m[1mLinking C shared library libbtcpp_ros2_interfaces__rosidl_generator_c.so[0m
+[2.450s] [ 19%] Built target btcpp_ros2_interfaces__rosidl_generator_c
+[2.464s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.465s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.465s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.723s] [ 26%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/btcpp_ros2_interfaces/msg/node_status__type_support.cpp.o[0m
+[2.723s] [ 28%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/btcpp_ros2_interfaces/srv/get_trees__type_support.cpp.o[0m
+[2.724s] [ 30%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/btcpp_ros2_interfaces/action/sleep__type_support.cpp.o[0m
+[2.725s] [ 32%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/btcpp_ros2_interfaces/action/execute_tree__type_support.cpp.o[0m
+[2.794s] [ 35%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.cpp.o[0m
+[2.794s] [ 37%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/btcpp_ros2_interfaces/msg/detail/node_status__type_support.cpp.o[0m
+[2.794s] [ 37%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/btcpp_ros2_interfaces/srv/detail/get_trees__type_support.cpp.o[0m
+[2.794s] [ 39%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/btcpp_ros2_interfaces/action/detail/sleep__type_support.cpp.o[0m
+[2.937s] [ 42%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/btcpp_ros2_interfaces/action/detail/dds_fastrtps/sleep__type_support.cpp.o[0m
+[2.937s] [ 44%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/btcpp_ros2_interfaces/msg/detail/dds_fastrtps/node_status__type_support.cpp.o[0m
+[2.937s] [ 44%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/btcpp_ros2_interfaces/action/detail/dds_fastrtps/execute_tree__type_support.cpp.o[0m
+[2.944s] [ 46%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/btcpp_ros2_interfaces/srv/detail/dds_fastrtps/get_trees__type_support.cpp.o[0m
+[2.959s] [ 50%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/btcpp_ros2_interfaces/action/execute_tree__type_support.cpp.o[0m
+[2.959s] [ 48%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/btcpp_ros2_interfaces/msg/node_status__type_support.cpp.o[0m
+[2.959s] [ 51%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/btcpp_ros2_interfaces/action/sleep__type_support.cpp.o[0m
+[2.962s] [ 53%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/btcpp_ros2_interfaces/srv/get_trees__type_support.cpp.o[0m
+[3.061s] [ 55%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_c.so[0m
+[3.155s] [ 57%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/btcpp_ros2_interfaces/msg/detail/node_status__type_support.c.o[0m
+[3.155s] [ 58%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/btcpp_ros2_interfaces/srv/detail/get_trees__type_support.c.o[0m
+[3.157s] [ 60%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.c.o[0m
+[3.170s] [ 62%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/btcpp_ros2_interfaces/action/detail/sleep__type_support.c.o[0m
+[3.173s] [ 62%] Built target btcpp_ros2_interfaces__rosidl_typesupport_c
+[3.233s] [ 69%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/btcpp_ros2_interfaces/srv/detail/get_trees__type_support_c.cpp.o[0m
+[3.233s] [ 69%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/btcpp_ros2_interfaces/action/detail/sleep__type_support_c.cpp.o[0m
+[3.233s] [ 69%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/btcpp_ros2_interfaces/msg/detail/node_status__type_support_c.cpp.o[0m
+[3.233s] [ 69%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/btcpp_ros2_interfaces/action/detail/execute_tree__type_support_c.cpp.o[0m
+[3.245s] [ 71%] [32m[1mLinking C shared library libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.390s] [ 71%] Built target btcpp_ros2_interfaces__rosidl_typesupport_introspection_c
+[3.658s] [ 73%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_cpp.so[0m
+[3.790s] [ 73%] Built target btcpp_ros2_interfaces__rosidl_typesupport_cpp
+[3.889s] [ 75%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.942s] [ 76%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.972s] [ 78%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.053s] [ 78%] Built target btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp
+[4.094s] [ 78%] Built target btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.127s] [ 78%] Built target btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c
+[4.164s] [ 78%] Built target btcpp_ros2_interfaces
+[4.195s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.374s] [ 80%] Built target btcpp_ros2_interfaces__py
+[6.447s] [ 82%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/btcpp_ros2_interfaces/action/_execute_tree_s.c.o[0m
+[6.453s] [ 85%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/btcpp_ros2_interfaces/msg/_node_status_s.c.o[0m
+[6.453s] [ 87%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/btcpp_ros2_interfaces/srv/_get_trees_s.c.o[0m
+[6.455s] [ 85%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/btcpp_ros2_interfaces/action/_sleep_s.c.o[0m
+[6.847s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/btcpp_ros2_interfaces/libbtcpp_ros2_interfaces__rosidl_generator_py.so[0m
+[6.939s] [ 89%] Built target btcpp_ros2_interfaces__rosidl_generator_py
+[6.968s] [ 91%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.968s] [ 92%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.969s] [ 94%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.117s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.119s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.122s] [100%] [32m[1mLinking C shared library rosidl_generator_py/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.194s] [100%] Built target btcpp_ros2_interfaces__rosidl_typesupport_c__pyext
+[7.197s] [100%] Built target btcpp_ros2_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.203s] [100%] Built target btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.226s] Invoked command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/btcpp_ros2_interfaces -- -j32 -l32
+[7.242s] Invoking command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/btcpp_ros2_interfaces
+[7.250s] -- Install configuration: ""
+[7.253s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/btcpp_ros2_interfaces
+[7.253s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[7.254s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[7.255s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/execute_tree.h
+[7.255s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[7.256s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__functions.h
+[7.256s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__struct.h
+[7.256s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__functions.h
+[7.256s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__functions.c
+[7.257s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.h
+[7.257s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__struct.h
+[7.257s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__type_support.h
+[7.257s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__functions.c
+[7.258s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/sleep.h
+[7.258s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[7.259s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail
+[7.259s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__struct.h
+[7.259s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__functions.c
+[7.259s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__type_support.h
+[7.260s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__functions.h
+[7.260s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.260s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/node_status.h
+[7.260s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv
+[7.261s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail
+[7.261s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__functions.c
+[7.261s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__functions.h
+[7.261s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__type_support.h
+[7.262s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__struct.h
+[7.262s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/get_trees.h
+[7.263s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/library_path.sh
+[7.263s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/library_path.dsv
+[7.264s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_c.so
+[7.265s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_c.so" to ""
+[7.265s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[7.265s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[7.265s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[7.265s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_fastrtps_c.h
+[7.266s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__rosidl_typesupport_fastrtps_c.h
+[7.266s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[7.266s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail
+[7.266s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_fastrtps_c.h
+[7.266s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.267s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv
+[7.267s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail
+[7.267s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__rosidl_typesupport_fastrtps_c.h
+[7.267s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.267s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.268s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[7.268s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[7.268s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[7.268s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__rosidl_typesupport_introspection_c.h
+[7.268s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_introspection_c.h
+[7.268s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__type_support.c
+[7.269s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.c
+[7.269s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[7.269s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.269s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail
+[7.269s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__type_support.c
+[7.269s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_introspection_c.h
+[7.269s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv
+[7.269s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail
+[7.269s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__rosidl_typesupport_introspection_c.h
+[7.271s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__type_support.c
+[7.271s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_c.so
+[7.271s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.271s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_c.so
+[7.272s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_c.so" to ""
+[7.272s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[7.272s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[7.272s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[7.272s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__type_support.hpp
+[7.273s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__struct.hpp
+[7.273s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__traits.hpp
+[7.273s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__builder.hpp
+[7.273s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__struct.hpp
+[7.273s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__traits.hpp
+[7.273s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.hpp
+[7.273s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__builder.hpp
+[7.274s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/execute_tree.hpp
+[7.274s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/sleep.hpp
+[7.274s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[7.274s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail
+[7.274s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__type_support.hpp
+[7.274s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__struct.hpp
+[7.275s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__builder.hpp
+[7.275s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__traits.hpp
+[7.275s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.275s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/node_status.hpp
+[7.275s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv
+[7.276s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail
+[7.276s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__type_support.hpp
+[7.276s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__traits.hpp
+[7.276s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__builder.hpp
+[7.277s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__struct.hpp
+[7.277s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/get_trees.hpp
+[7.277s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[7.277s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[7.277s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[7.277s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_fastrtps_cpp.hpp
+[7.277s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__rosidl_typesupport_fastrtps_cpp.hpp
+[7.277s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/dds_fastrtps
+[7.278s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[7.278s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail
+[7.278s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.278s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/dds_fastrtps
+[7.278s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.279s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv
+[7.279s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail
+[7.279s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__rosidl_typesupport_fastrtps_cpp.hpp
+[7.279s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/dds_fastrtps
+[7.279s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.280s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.281s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces
+[7.281s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action
+[7.281s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail
+[7.281s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.cpp
+[7.281s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_introspection_cpp.hpp
+[7.281s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__rosidl_typesupport_introspection_cpp.hpp
+[7.282s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__type_support.cpp
+[7.282s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg
+[7.282s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail
+[7.282s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_introspection_cpp.hpp
+[7.282s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__type_support.cpp
+[7.283s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv
+[7.283s] -- Up-to-date: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail
+[7.283s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__rosidl_typesupport_introspection_cpp.hpp
+[7.283s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/srv/detail/get_trees__type_support.cpp
+[7.284s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.284s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.284s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_cpp.so
+[7.285s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.285s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/pythonpath.sh
+[7.286s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/pythonpath.dsv
+[7.286s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.3.0-py3.10.egg-info
+[7.289s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.3.0-py3.10.egg-info/top_level.txt
+[7.290s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.3.0-py3.10.egg-info/PKG-INFO
+[7.290s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.3.0-py3.10.egg-info/SOURCES.txt
+[7.290s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces-0.3.0-py3.10.egg-info/dependency_links.txt
+[7.290s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces
+[7.291s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action
+[7.291s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/_sleep_s.c
+[7.291s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/_execute_tree.py
+[7.292s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/_execute_tree_s.c
+[7.292s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/_sleep.py
+[7.292s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/__init__.py
+[7.292s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.293s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/msg
+[7.293s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/msg/_node_status.py
+[7.293s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/msg/_node_status_s.c
+[7.293s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/msg/__init__.py
+[7.293s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.294s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.294s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/srv
+[7.294s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/srv/_get_trees_s.c
+[7.294s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/srv/__init__.py
+[7.295s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/srv/_get_trees.py
+[7.295s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_c.c
+[7.295s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.295s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/__init__.py
+[7.296s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.296s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/libbtcpp_ros2_interfaces__rosidl_generator_py.so
+[7.355s] Listing '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces'...
+[7.355s] Compiling '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/__init__.py'...
+[7.355s] Listing '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action'...
+[7.355s] Compiling '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/__init__.py'...
+[7.355s] Compiling '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/_execute_tree.py'...
+[7.355s] Compiling '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/action/_sleep.py'...
+[7.355s] Listing '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/msg'...
+[7.355s] Compiling '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/msg/__init__.py'...
+[7.355s] Compiling '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/msg/_node_status.py'...
+[7.355s] Listing '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/srv'...
+[7.355s] Compiling '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/srv/__init__.py'...
+[7.355s] Compiling '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/srv/_get_trees.py'...
+[7.361s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.362s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.362s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.362s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.363s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.363s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.364s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_py.so
+[7.364s] -- Set runtime path of "/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_py.so" to ""
+[7.364s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust
+[7.366s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/Cargo.toml
+[7.367s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src
+[7.367s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/action
+[7.368s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/action/rmw.rs
+[7.368s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/lib.rs
+[7.369s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/msg
+[7.370s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/msg/rmw.rs
+[7.370s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/action.rs
+[7.370s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/srv.rs
+[7.370s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/srv
+[7.371s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/srv/rmw.rs
+[7.371s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/src/msg.rs
+[7.371s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/rust/build.rs
+[7.372s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/msg/NodeStatus.idl
+[7.373s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/srv/GetTrees.idl
+[7.373s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/ExecuteTree.idl
+[7.373s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/Sleep.idl
+[7.374s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/msg/NodeStatus.msg
+[7.374s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/srv/GetTrees.srv
+[7.374s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/srv/GetTrees_Request.msg
+[7.374s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/srv/GetTrees_Response.msg
+[7.375s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/ExecuteTree.action
+[7.375s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/Sleep.action
+[7.375s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/btcpp_ros2_interfaces
+[7.376s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/btcpp_ros2_interfaces
+[7.376s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/ament_prefix_path.sh
+[7.377s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/ament_prefix_path.dsv
+[7.377s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/path.sh
+[7.377s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/path.dsv
+[7.377s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.bash
+[7.378s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.sh
+[7.378s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.zsh
+[7.378s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.dsv
+[7.378s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.dsv
+[7.379s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/packages/btcpp_ros2_interfaces
+[7.380s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_cExport.cmake
+[7.380s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.381s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.381s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.381s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.382s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.382s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cExport.cmake
+[7.383s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.383s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_cppExport.cmake
+[7.383s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.384s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.384s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.384s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.384s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cppExport.cmake
+[7.385s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.385s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_pyExport.cmake
+[7.385s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.386s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.386s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.386s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.386s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.386s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.387s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.387s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.387s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[7.387s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfacesConfig.cmake
+[7.388s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfacesConfig-version.cmake
+[7.388s] -- Installing: /home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.xml
+[7.394s] Invoked command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/btcpp_ros2_interfaces

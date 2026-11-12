@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000574] (btcpp_ros2_interfaces) JobQueued: {'identifier': 'btcpp_ros2_interfaces', 'dependencies': OrderedDict()}
+[0.000841] (gazebo_bbox_plugin) JobQueued: {'identifier': 'gazebo_bbox_plugin', 'dependencies': OrderedDict()}
+[0.000875] (robot_swiss_knife_msgs) JobQueued: {'identifier': 'robot_swiss_knife_msgs', 'dependencies': OrderedDict()}
+[0.000914] (behaviortree_ros2) JobQueued: {'identifier': 'behaviortree_ros2', 'dependencies': OrderedDict([('btcpp_ros2_interfaces', '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces')])}
+[0.002414] (kb_interface) JobQueued: {'identifier': 'kb_interface', 'dependencies': OrderedDict([('robot_swiss_knife_msgs', '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs')])}
+[0.002432] (btcpp_ros2_samples) JobQueued: {'identifier': 'btcpp_ros2_samples', 'dependencies': OrderedDict([('btcpp_ros2_interfaces', '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces'), ('behaviortree_ros2', '/home/lucita/ssy236_ws/install/behaviortree_ros2')])}
+[0.002450] (btcpp_ros2_interfaces) JobStarted: {'identifier': 'btcpp_ros2_interfaces'}
+[0.017258] (robot_swiss_knife_msgs) JobStarted: {'identifier': 'robot_swiss_knife_msgs'}
+[0.022493] (gazebo_bbox_plugin) JobStarted: {'identifier': 'gazebo_bbox_plugin'}
+[0.027206] (btcpp_ros2_interfaces) JobProgress: {'identifier': 'btcpp_ros2_interfaces', 'progress': 'cmake'}
+[0.029757] (btcpp_ros2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces'], 'cwd': '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucita'), ('SHLVL', '1'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/lucita'), ('OLDPWD', '/home/lucita/ssy236_ws/src/gazebo_models'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'lucita'), ('NAME', 'LAPTOP-L0FM8CDI'), ('WSL_INTEROP', '/run/WSL/33168_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/lucita/ssy236/src/gazebo_models'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/WSL/:/mnt/c/Users/lucita/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lucita/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lucita/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '4d6c8f11-87d0-491f-bd84-3b2c8a70d2dd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.039601] (robot_swiss_knife_msgs) JobProgress: {'identifier': 'robot_swiss_knife_msgs', 'progress': 'cmake'}
+[0.041639] (robot_swiss_knife_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs', '-DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs'], 'cwd': '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucita'), ('SHLVL', '1'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/lucita'), ('OLDPWD', '/home/lucita/ssy236_ws/src/gazebo_models'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'lucita'), ('NAME', 'LAPTOP-L0FM8CDI'), ('WSL_INTEROP', '/run/WSL/33168_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/lucita/ssy236/src/gazebo_models'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/WSL/:/mnt/c/Users/lucita/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lucita/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lucita/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '4d6c8f11-87d0-491f-bd84-3b2c8a70d2dd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.045904] (gazebo_bbox_plugin) JobProgress: {'identifier': 'gazebo_bbox_plugin', 'progress': 'cmake'}
+[0.050057] (gazebo_bbox_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/lucita/ssy236_ws/src/ssy236-dependencies/gazebo_bbox_plugin', '-DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/gazebo_bbox_plugin'], 'cwd': '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucita'), ('SHLVL', '1'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/lucita'), ('OLDPWD', '/home/lucita/ssy236_ws/src/gazebo_models'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'lucita'), ('NAME', 'LAPTOP-L0FM8CDI'), ('WSL_INTEROP', '/run/WSL/33168_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/lucita/ssy236/src/gazebo_models'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/WSL/:/mnt/c/Users/lucita/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lucita/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lucita/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '4d6c8f11-87d0-491f-bd84-3b2c8a70d2dd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099719] (-) TimerEvent: {}
+[0.200071] (-) TimerEvent: {}
+[0.268707] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.269100] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.277703] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300428] (-) TimerEvent: {}
+[0.400953] (-) TimerEvent: {}
+[0.501325] (-) TimerEvent: {}
+[0.529292] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.545785] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.555983] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601485] (-) TimerEvent: {}
+[0.687823] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.691511] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701606] (-) TimerEvent: {}
+[0.736857] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.794831] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.795055] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.799457] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.800106] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.800232] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.800440] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.800870] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.801195] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.801679] (-) TimerEvent: {}
+[0.804174] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.804339] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.867898] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.872081] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.872306] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.872588] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.874776] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901841] (-) TimerEvent: {}
+[0.912710] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.913643] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.917726] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.917954] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.918157] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.918310] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.918495] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.918691] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.996492] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.000906] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.001135] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.001442] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.001918] (-) TimerEvent: {}
+[1.102204] (-) TimerEvent: {}
+[1.201172] (gazebo_bbox_plugin) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:8 (find_package):\n'}
+[1.201437] (gazebo_bbox_plugin) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.201486] (gazebo_bbox_plugin) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.201517] (gazebo_bbox_plugin) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.201571] (gazebo_bbox_plugin) StderrLine: {'line': b'\n'}
+[1.201655] (gazebo_bbox_plugin) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.201716] (gazebo_bbox_plugin) StderrLine: {'line': b'  any of the following names:\n'}
+[1.201752] (gazebo_bbox_plugin) StderrLine: {'line': b'\n'}
+[1.201788] (gazebo_bbox_plugin) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.201816] (gazebo_bbox_plugin) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.201847] (gazebo_bbox_plugin) StderrLine: {'line': b'\n'}
+[1.201912] (gazebo_bbox_plugin) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.201947] (gazebo_bbox_plugin) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.201977] (gazebo_bbox_plugin) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.202007] (gazebo_bbox_plugin) StderrLine: {'line': b'  has been installed.\n'}
+[1.202032] (gazebo_bbox_plugin) StderrLine: {'line': b'\n'}
+[1.202056] (gazebo_bbox_plugin) StderrLine: {'line': b'\x1b[0m\n'}
+[1.202080] (gazebo_bbox_plugin) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.202114] (gazebo_bbox_plugin) StdoutLine: {'line': b'See also "/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/CMakeOutput.log".\n'}
+[1.202277] (-) TimerEvent: {}
+[1.202599] (robot_swiss_knife_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[1.202725] (robot_swiss_knife_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.202767] (robot_swiss_knife_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.202808] (robot_swiss_knife_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.202840] (robot_swiss_knife_msgs) StderrLine: {'line': b'\n'}
+[1.202867] (robot_swiss_knife_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.202893] (robot_swiss_knife_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[1.202921] (robot_swiss_knife_msgs) StderrLine: {'line': b'\n'}
+[1.202945] (robot_swiss_knife_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.202970] (robot_swiss_knife_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.202994] (robot_swiss_knife_msgs) StderrLine: {'line': b'\n'}
+[1.203017] (robot_swiss_knife_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.203050] (robot_swiss_knife_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.203074] (robot_swiss_knife_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.203097] (robot_swiss_knife_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[1.203121] (robot_swiss_knife_msgs) StderrLine: {'line': b'\n'}
+[1.203144] (robot_swiss_knife_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.203168] (robot_swiss_knife_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.203197] (robot_swiss_knife_msgs) StdoutLine: {'line': b'See also "/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.205856] (gazebo_bbox_plugin) CommandEnded: {'returncode': 1}
+[1.209122] (robot_swiss_knife_msgs) CommandEnded: {'returncode': 1}
+[1.238556] (gazebo_bbox_plugin) JobEnded: {'identifier': 'gazebo_bbox_plugin', 'rc': 1}
+[1.239108] (robot_swiss_knife_msgs) JobEnded: {'identifier': 'robot_swiss_knife_msgs', 'rc': 'SIGINT'}
+[1.302435] (-) TimerEvent: {}
+[1.402766] (-) TimerEvent: {}
+[1.503117] (-) TimerEvent: {}
+[1.603453] (-) TimerEvent: {}
+[1.671699] (btcpp_ros2_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[1.671954] (btcpp_ros2_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.672002] (btcpp_ros2_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.672034] (btcpp_ros2_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.672061] (btcpp_ros2_interfaces) StderrLine: {'line': b'\n'}
+[1.672087] (btcpp_ros2_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.672111] (btcpp_ros2_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[1.672135] (btcpp_ros2_interfaces) StderrLine: {'line': b'\n'}
+[1.672158] (btcpp_ros2_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.672182] (btcpp_ros2_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.672206] (btcpp_ros2_interfaces) StderrLine: {'line': b'\n'}
+[1.672230] (btcpp_ros2_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.672254] (btcpp_ros2_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.672276] (btcpp_ros2_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.672299] (btcpp_ros2_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[1.672322] (btcpp_ros2_interfaces) StderrLine: {'line': b'\n'}
+[1.672345] (btcpp_ros2_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.672367] (btcpp_ros2_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.672398] (btcpp_ros2_interfaces) StdoutLine: {'line': b'See also "/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.675918] (btcpp_ros2_interfaces) JobEnded: {'identifier': 'btcpp_ros2_interfaces', 'rc': 'SIGINT'}
+[1.686612] (behaviortree_ros2) JobSkipped: {'identifier': 'behaviortree_ros2'}
+[1.686886] (kb_interface) JobSkipped: {'identifier': 'kb_interface'}
+[1.686927] (btcpp_ros2_samples) JobSkipped: {'identifier': 'btcpp_ros2_samples'}
+[1.686962] (-) EventReactorShutdown: {}

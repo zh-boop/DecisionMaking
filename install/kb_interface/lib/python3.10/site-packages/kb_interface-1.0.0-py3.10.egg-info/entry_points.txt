@@ -1,0 +1,3 @@
+[console_scripts]
+kb_interface_node = kb_interface.kb_interface_node:main
+

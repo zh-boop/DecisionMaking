@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3cd152470ad0b1e71e64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "robot_swiss_knife_msgs__py",
+					"jsonFile" : "directory-robot_swiss_knife_msgs__py-70d6f1718be646bf00a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/robot_swiss_knife_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "robot_swiss_knife_msgs__rs",
+					"jsonFile" : "directory-robot_swiss_knife_msgs__rs-7d8a66446ed613bb63cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/robot_swiss_knife_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "robot_swiss_knife_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robot_swiss_knife_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robot_swiss_knife_msgs_egg-2bc035bf1eea881a0eb2.json",
+					"name" : "ament_cmake_python_build_robot_swiss_knife_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robot_swiss_knife_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robot_swiss_knife_msgs-4f8e496b7be5291a09c9.json",
+					"name" : "ament_cmake_python_copy_robot_swiss_knife_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs-77de07367d0e2a181e19.json",
+					"name" : "robot_swiss_knife_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__cpp-dcc248a4c170613d8721.json",
+					"name" : "robot_swiss_knife_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robot_swiss_knife_msgs__py::@47b6c9b8c2537ae5261f",
+					"jsonFile" : "target-robot_swiss_knife_msgs__py-595f323d78aa50c8f2e5.json",
+					"name" : "robot_swiss_knife_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_generator_c-704bb652117a7447aa1b.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_generator_py-be0d072c469421baf9ab.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_typesupport_c-730e9db5d139d6c5d447.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_typesupport_c__pyext-f3e83447162983cf8a47.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_typesupport_cpp-25551ecee3cb000bfce6.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c-c4f745edca1765539216.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c__pyext-a616ed81a1b145b80e54.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cpp-5dc976b4a74c773af9cf.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_typesupport_introspection_c-29427ba98a03f4558f8a.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_typesupport_introspection_c__pyext-c5e40f99c22b71a21e74.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rosidl_typesupport_introspection_cpp-5370979aa278236ee49d.json",
+					"name" : "robot_swiss_knife_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "robot_swiss_knife_msgs__rs::@ee86ee86434d52384263",
+					"jsonFile" : "target-robot_swiss_knife_msgs__rs-b940befe2a225dcbe83d.json",
+					"name" : "robot_swiss_knife_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_swiss_knife_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_swiss_knife_msgs_uninstall-4bc97626940e38e1ac62.json",
+					"name" : "robot_swiss_knife_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6c0aacf60102a2300abc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs",
+		"source" : "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

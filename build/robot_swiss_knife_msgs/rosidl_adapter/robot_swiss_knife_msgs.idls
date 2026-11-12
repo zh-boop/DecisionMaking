@@ -1,0 +1,15 @@
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:msg/KnowledgeItem.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:msg/Fluent.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:msg/Action.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:msg/ObjectView.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:msg/Object.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:srv/EstimateAnthropometricParameters.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:srv/SegmentObjects.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:srv/CheckObjectVisibility.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:srv/ExtractROI3DPoints.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:srv/CalculatePoseFromCloud.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:srv/GetObjectPose.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:srv/GetFluentAssertions.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:srv/UpdateKB.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:action/QueryVLM.idl
+/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/rosidl_adapter/robot_swiss_knife_msgs:action/GetTaskPlan.idl

@@ -1,0 +1,21 @@
+[0.765s] Invoking command in '/home/lucita/ssy236_ws/src/ssy236-dependencies/kb_interface': AMENT_PREFIX_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucita/ssy236_ws/build/kb_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/kb_interface build --build-base /home/lucita/ssy236_ws/build/kb_interface/build install --record /home/lucita/ssy236_ws/build/kb_interface/install.log --install-scripts $base/lib/kb_interface --single-version-externally-managed install_data
+[0.951s] running egg_info
+[0.951s] writing ../../../build/kb_interface/kb_interface.egg-info/PKG-INFO
+[0.952s] writing dependency_links to ../../../build/kb_interface/kb_interface.egg-info/dependency_links.txt
+[0.952s] writing entry points to ../../../build/kb_interface/kb_interface.egg-info/entry_points.txt
+[0.952s] writing requirements to ../../../build/kb_interface/kb_interface.egg-info/requires.txt
+[0.952s] writing top-level names to ../../../build/kb_interface/kb_interface.egg-info/top_level.txt
+[0.954s] reading manifest file '../../../build/kb_interface/kb_interface.egg-info/SOURCES.txt'
+[0.955s] writing manifest file '../../../build/kb_interface/kb_interface.egg-info/SOURCES.txt'
+[0.955s] running build
+[0.955s] running build_py
+[0.956s] running install
+[0.956s] running install_lib
+[0.958s] running install_data
+[0.958s] running install_egg_info
+[0.960s] removing '/home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface-1.0.0-py3.10.egg-info' (and everything under it)
+[0.960s] Copying ../../../build/kb_interface/kb_interface.egg-info to /home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface-1.0.0-py3.10.egg-info
+[0.962s] running install_scripts
+[0.980s] Installing kb_interface_node script to /home/lucita/ssy236_ws/install/kb_interface/lib/kb_interface
+[0.981s] writing list of installed files to '/home/lucita/ssy236_ws/build/kb_interface/install.log'
+[1.003s] Invoked command in '/home/lucita/ssy236_ws/src/ssy236-dependencies/kb_interface' returned '0': AMENT_PREFIX_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucita/ssy236_ws/build/kb_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/kb_interface build --build-base /home/lucita/ssy236_ws/build/kb_interface/build install --record /home/lucita/ssy236_ws/build/kb_interface/install.log --install-scripts $base/lib/kb_interface --single-version-externally-managed install_data

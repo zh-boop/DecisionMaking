@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_swiss_knife_msgs/msg/KnowledgeItem.msg
+// generated code does not contain a copyright notice
+
+
+module robot_swiss_knife_msgs {
+  module msg {
+    struct KnowledgeItem {
+      string name;
+
+      string value;
+    };
+  };
+};

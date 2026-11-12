@@ -1,0 +1,2 @@
+sensor_msgs/PointCloud2 point_cloud
+robot_swiss_knife_msgs/Object[] objects

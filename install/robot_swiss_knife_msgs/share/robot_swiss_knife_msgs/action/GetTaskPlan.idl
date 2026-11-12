@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_swiss_knife_msgs/action/GetTaskPlan.action
+// generated code does not contain a copyright notice
+
+#include "robot_swiss_knife_msgs/msg/Action.idl"
+
+module robot_swiss_knife_msgs {
+  module action {
+    struct GetTaskPlan_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetTaskPlan_Result {
+      sequence<robot_swiss_knife_msgs::msg::Action> plan;
+
+      boolean success;
+
+      string message;
+    };
+    struct GetTaskPlan_Feedback {
+      string feedback;
+    };
+  };
+};

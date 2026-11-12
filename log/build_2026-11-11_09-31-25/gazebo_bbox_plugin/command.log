@@ -1,0 +1,6 @@
+Invoking command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucita/ssy236_ws/src/ssy236-dependencies/gazebo_bbox_plugin -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/gazebo_bbox_plugin
+Invoked command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucita/ssy236_ws/src/ssy236-dependencies/gazebo_bbox_plugin -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/gazebo_bbox_plugin
+Invoking command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/gazebo_bbox_plugin -- -j32 -l32
+Invoked command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/gazebo_bbox_plugin -- -j32 -l32
+Invoking command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/gazebo_bbox_plugin
+Invoked command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/gazebo_bbox_plugin

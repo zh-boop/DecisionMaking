@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bc6f17cb935c243b13c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "btcpp_ros2_interfaces__py",
+					"jsonFile" : "directory-btcpp_ros2_interfaces__py-781aa774ff0a7b5757fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces/btcpp_ros2_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "btcpp_ros2_interfaces__rs",
+					"jsonFile" : "directory-btcpp_ros2_interfaces__rs-2cf26b024d90588ee7cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces/btcpp_ros2_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "btcpp_ros2_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_btcpp_ros2_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_btcpp_ros2_interfaces_egg-13c637f31093b21aa76a.json",
+					"name" : "ament_cmake_python_build_btcpp_ros2_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_btcpp_ros2_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_btcpp_ros2_interfaces-7f5a38897dcd14917ae7.json",
+					"name" : "ament_cmake_python_copy_btcpp_ros2_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces-450f396e7777018b231f.json",
+					"name" : "btcpp_ros2_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__cpp-9bfa055874def1ac1db4.json",
+					"name" : "btcpp_ros2_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "btcpp_ros2_interfaces__py::@dbb19cbbb7b653930bd9",
+					"jsonFile" : "target-btcpp_ros2_interfaces__py-6bef603105ed45872525.json",
+					"name" : "btcpp_ros2_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_generator_c-5112f91988c53b518a8f.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_generator_py-9cd4c713f73bec844275.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_typesupport_c-6b691597101e94721898.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_typesupport_c__pyext-a1db8f4cb195393f642d.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_typesupport_cpp-c784c7b2eaa5bc62779d.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c-5953003565ed210d07b1.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext-985170b5a7045a1f71be.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp-41e9ae6d3e6eb99fbf18.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_typesupport_introspection_c-b524cd8acfddcb0964e0.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_typesupport_introspection_c__pyext-05991d59a0a819d7be52.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp-93d6c7ba53ceb3ec2dc1.json",
+					"name" : "btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "btcpp_ros2_interfaces__rs::@2c89e121e1625c30d654",
+					"jsonFile" : "target-btcpp_ros2_interfaces__rs-45ee450be74bb587c6a8.json",
+					"name" : "btcpp_ros2_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "btcpp_ros2_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-btcpp_ros2_interfaces_uninstall-8c6a43450e11f6a40bb7.json",
+					"name" : "btcpp_ros2_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5494a025a77997ff0f73.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces",
+		"source" : "/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

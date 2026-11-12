@@ -1,0 +1,20 @@
+{
+  "package_name": "robot_swiss_knife_msgs",
+  "non_idl_tuples": [
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:msg/KnowledgeItem.msg",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:msg/Fluent.msg",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:msg/Action.msg",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:msg/ObjectView.msg",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:msg/Object.msg",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:srv/EstimateAnthropometricParameters.srv",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:srv/SegmentObjects.srv",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:srv/CheckObjectVisibility.srv",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:srv/ExtractROI3DPoints.srv",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:srv/CalculatePoseFromCloud.srv",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:srv/GetObjectPose.srv",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:srv/GetFluentAssertions.srv",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:srv/UpdateKB.srv",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:action/QueryVLM.action",
+    "/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs:action/GetTaskPlan.action"
+  ]
+}

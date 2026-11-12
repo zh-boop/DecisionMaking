@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_swiss_knife_msgs/srv/ExtractROI3DPoints.srv
+// generated code does not contain a copyright notice
+
+#include "robot_swiss_knife_msgs/msg/Object.idl"
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module robot_swiss_knife_msgs {
+  module srv {
+    struct ExtractROI3DPoints_Request {
+      sensor_msgs::msg::PointCloud2 point_cloud;
+
+      sequence<robot_swiss_knife_msgs::msg::Object> objects;
+    };
+    struct ExtractROI3DPoints_Response {
+      sequence<robot_swiss_knife_msgs::msg::Object> objects;
+    };
+  };
+};

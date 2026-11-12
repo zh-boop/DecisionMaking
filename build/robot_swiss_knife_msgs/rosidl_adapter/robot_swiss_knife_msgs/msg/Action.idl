@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_swiss_knife_msgs/msg/Action.msg
+// generated code does not contain a copyright notice
+
+#include "robot_swiss_knife_msgs/msg/KnowledgeItem.idl"
+
+module robot_swiss_knife_msgs {
+  module msg {
+    struct Action {
+      string name;
+
+      sequence<robot_swiss_knife_msgs::msg::KnowledgeItem> params;
+    };
+  };
+};

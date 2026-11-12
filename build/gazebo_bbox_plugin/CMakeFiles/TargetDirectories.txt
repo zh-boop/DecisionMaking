@@ -1,0 +1,10 @@
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/uninstall.dir
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/gazebo_bbox_plugin_uninstall.dir
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/gazebo_bbox_plugin.dir
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/test.dir
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/edit_cache.dir
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/rebuild_cache.dir
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/list_install_components.dir
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/install.dir
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/install/local.dir
+/home/lucita/ssy236_ws/build/gazebo_bbox_plugin/CMakeFiles/install/strip.dir

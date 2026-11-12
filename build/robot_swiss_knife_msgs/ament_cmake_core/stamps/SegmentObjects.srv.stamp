@@ -1,0 +1,4 @@
+sensor_msgs/Image image
+string[] object_categories
+---
+robot_swiss_knife_msgs/Object[] objects

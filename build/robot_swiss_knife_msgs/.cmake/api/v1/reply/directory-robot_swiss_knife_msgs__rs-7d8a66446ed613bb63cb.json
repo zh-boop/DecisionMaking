@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_swiss_knife_msgs__rs",
+		"source" : "/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs/robot_swiss_knife_msgs__rs"
+	}
+}

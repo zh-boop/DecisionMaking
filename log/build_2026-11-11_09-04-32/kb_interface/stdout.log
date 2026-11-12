@@ -1,0 +1,40 @@
+running egg_info
+creating ../../../build/kb_interface/kb_interface.egg-info
+writing ../../../build/kb_interface/kb_interface.egg-info/PKG-INFO
+writing dependency_links to ../../../build/kb_interface/kb_interface.egg-info/dependency_links.txt
+writing entry points to ../../../build/kb_interface/kb_interface.egg-info/entry_points.txt
+writing requirements to ../../../build/kb_interface/kb_interface.egg-info/requires.txt
+writing top-level names to ../../../build/kb_interface/kb_interface.egg-info/top_level.txt
+writing manifest file '../../../build/kb_interface/kb_interface.egg-info/SOURCES.txt'
+reading manifest file '../../../build/kb_interface/kb_interface.egg-info/SOURCES.txt'
+writing manifest file '../../../build/kb_interface/kb_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lucita/ssy236_ws/build/kb_interface/build
+creating /home/lucita/ssy236_ws/build/kb_interface/build/lib
+creating /home/lucita/ssy236_ws/build/kb_interface/build/lib/kb_interface
+copying kb_interface/kb_interface_node.py -> /home/lucita/ssy236_ws/build/kb_interface/build/lib/kb_interface
+copying kb_interface/knowledge_base_interface.py -> /home/lucita/ssy236_ws/build/kb_interface/build/lib/kb_interface
+copying kb_interface/__init__.py -> /home/lucita/ssy236_ws/build/kb_interface/build/lib/kb_interface
+running install
+running install_lib
+creating /home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface
+copying /home/lucita/ssy236_ws/build/kb_interface/build/lib/kb_interface/kb_interface_node.py -> /home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface
+copying /home/lucita/ssy236_ws/build/kb_interface/build/lib/kb_interface/knowledge_base_interface.py -> /home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface
+copying /home/lucita/ssy236_ws/build/kb_interface/build/lib/kb_interface/__init__.py -> /home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface
+byte-compiling /home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface/kb_interface_node.py to kb_interface_node.cpython-310.pyc
+byte-compiling /home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface/knowledge_base_interface.py to knowledge_base_interface.cpython-310.pyc
+byte-compiling /home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/lucita/ssy236_ws/install/kb_interface/share/ament_index
+creating /home/lucita/ssy236_ws/install/kb_interface/share/ament_index/resource_index
+creating /home/lucita/ssy236_ws/install/kb_interface/share/ament_index/resource_index/packages
+copying resource/kb_interface -> /home/lucita/ssy236_ws/install/kb_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/lucita/ssy236_ws/install/kb_interface/share/kb_interface
+creating /home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/launch
+copying launch/kb_interface.launch.py -> /home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/launch
+running install_egg_info
+Copying ../../../build/kb_interface/kb_interface.egg-info to /home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages/kb_interface-1.0.0-py3.10.egg-info
+running install_scripts
+Installing kb_interface_node script to /home/lucita/ssy236_ws/install/kb_interface/lib/kb_interface
+writing list of installed files to '/home/lucita/ssy236_ws/build/kb_interface/install.log'

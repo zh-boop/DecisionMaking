@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_swiss_knife_msgs/srv/UpdateKB.srv
+// generated code does not contain a copyright notice
+
+#include "robot_swiss_knife_msgs/msg/Fluent.idl"
+
+module robot_swiss_knife_msgs {
+  module srv {
+    module UpdateKB_Request_Constants {
+      const int8 INSERT = 0;
+      const int8 REMOVE = 1;
+    };
+    struct UpdateKB_Request {
+      int8 operation;
+
+      sequence<robot_swiss_knife_msgs::msg::Fluent> fluents;
+    };
+    struct UpdateKB_Response {
+      boolean success;
+    };
+  };
+};
