@@ -1,0 +1,48 @@
+[0.040s] Invoking command in '/home/lucita/ssy236_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/navigation_pkg:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navigation_pkg -- -j32 -l32
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target navi_node[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/navi_node.dir/src/navi_node.cpp.o[0m
+[0.327s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:28:39:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.327s]    28 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"[m[KPublishing: %d %d, message.x, message.y);
+[0.327s]       |                                       [01;35m[K^[m[K
+[0.327s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:46:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.327s]    46 | }
+[0.327s]       |  [01;31m[K^[m[K
+[1.782s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:28:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.783s]    28 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing: %d %d, message.x, message.y);
+[1.783s]       |                  [01;31m[K^[m[K
+[1.783s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:13:42:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.783s]    13 | class NaviPublisher : public rclcpp::Node[01;36m[K{[m[K
+[1.783s]       |                                          [01;36m[K^[m[K
+[1.783s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:[m[K In constructor ‘[01m[KNaviPublisher::NaviPublisher()[m[K’:
+[1.783s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:15:45:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KNaviPublisher[m[K’ does not have any field named ‘[01m[Kcounter[m[K’
+[1.783s]    15 |     NaviPublisher() : Node("NaviPublisher"),[01;31m[Kcounter[m[K(0){
+[1.783s]       |                                             [01;31m[K^~~~~~~[m[K
+[1.786s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:16:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope; did you mean ‘[01m[KNaviPublisher[m[K’?
+[1.787s]    16 |       [01;31m[Kpublisher[m[K = this->create_publisher<navi_interfaces::msg::Coord2d>("navi_topic",10);
+[1.787s]       |       [01;31m[K^~~~~~~~~[m[K
+[1.787s]       |       [32m[KNaviPublisher[m[K
+[1.792s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:18:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+[1.792s]    18 |       [01;31m[Ktimer[m[K = this->create_wall_timer(
+[1.792s]       |       [01;31m[K^~~~~[m[K
+[1.792s]       |       [32m[Ktimex[m[K
+[1.797s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:[m[K In member function ‘[01m[Kvoid NaviPublisher::publish_callback()[m[K’:
+[1.797s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:26:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass NaviPublisher[m[K’ has no member named ‘[01m[Kcounter[m[K’
+[1.797s]    26 |       message.x = this->[01;31m[Kcounter[m[K++;
+[1.797s]       |                         [01;31m[K^~~~~~~[m[K
+[1.800s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:28:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[1.800s]    28 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: %d %d, message.x, message.y);
+[1.800s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.800s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:28:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.800s]    28 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing: %d %d, message.x, message.y);
+[1.800s]       |                  [01;31m[K^[m[K
+[1.800s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:24:28:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.800s]    24 |     void publish_callback()[01;36m[K{[m[K
+[1.800s]       |                            [01;36m[K^[m[K
+[1.800s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:[m[K At global scope:
+[1.800s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:28:18:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.801s]    28 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing: %d %d, message.x, message.y);
+[1.801s]       |                  [01;31m[K^[m[K
+[2.177s] gmake[2]: *** [CMakeFiles/navi_node.dir/build.make:76: CMakeFiles/navi_node.dir/src/navi_node.cpp.o] Error 1
+[2.177s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navi_node.dir/all] Error 2
+[2.177s] gmake: *** [Makefile:146: all] Error 2
+[2.179s] Invoked command in '/home/lucita/ssy236_ws/build/navigation_pkg' returned '2': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/navigation_pkg:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navigation_pkg -- -j32 -l32

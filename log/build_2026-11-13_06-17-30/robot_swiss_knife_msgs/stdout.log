@@ -1,0 +1,525 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_generator_c[0m
+[  1%] Built target robot_swiss_knife_msgs__rs
+[  1%] Built target robot_swiss_knife_msgs__cpp
+[ 13%] Built target robot_swiss_knife_msgs__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 13%] Built target ament_cmake_python_copy_robot_swiss_knife_msgs
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_typesupport_introspection_c[0m
+[ 25%] Built target robot_swiss_knife_msgs__rosidl_typesupport_c
+[ 37%] Built target robot_swiss_knife_msgs__rosidl_typesupport_cpp
+[ 49%] Built target robot_swiss_knife_msgs__rosidl_typesupport_introspection_cpp
+[ 61%] Built target robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target robot_swiss_knife_msgs__rosidl_typesupport_introspection_c
+[ 85%] Built target robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c
+[ 85%] Built target robot_swiss_knife_msgs
+[ 86%] Built target robot_swiss_knife_msgs__py
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_generator_py[0m
+[ 97%] Built target robot_swiss_knife_msgs__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_swiss_knife_msgs__rosidl_typesupport_c__pyext[0m
+[ 98%] Built target robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 99%] Built target robot_swiss_knife_msgs__rosidl_typesupport_c__pyext
+[100%] Built target robot_swiss_knife_msgs__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing robot_swiss_knife_msgs.egg-info/PKG-INFO
+writing dependency_links to robot_swiss_knife_msgs.egg-info/dependency_links.txt
+writing top-level names to robot_swiss_knife_msgs.egg-info/top_level.txt
+reading manifest file 'robot_swiss_knife_msgs.egg-info/SOURCES.txt'
+writing manifest file 'robot_swiss_knife_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_robot_swiss_knife_msgs_egg
+-- Install configuration: ""
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/ament_index/resource_index/rosidl_interfaces/robot_swiss_knife_msgs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/get_task_plan.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/query_vlm.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/action.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/knowledge_item.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/fluent.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/object_view.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/object.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/extract_roi3_d_points.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__functions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__type_support.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__struct.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__functions.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/update_kb.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/check_object_visibility.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/get_object_pose.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/estimate_anthropometric_parameters.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/segment_objects.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/calculate_pose_from_cloud.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/get_fluent_assertions.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/environment/library_path.sh
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/environment/library_path.dsv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__type_support.c
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__type_support.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/get_task_plan.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/query_vlm.hpp
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/action.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/object.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/object_view.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/knowledge_item.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/fluent.hpp
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/get_object_pose.hpp
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__builder.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__traits.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__struct.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__type_support.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/check_object_visibility.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/update_kb.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/get_fluent_assertions.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/calculate_pose_from_cloud.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/estimate_anthropometric_parameters.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/segment_objects.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/extract_roi3_d_points.hpp
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/dds_fastrtps
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/dds_fastrtps
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/get_task_plan__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/action/detail/query_vlm__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/fluent__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object_view__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/action__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/msg/detail/knowledge_item__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv
+-- Up-to-date: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/update_kb__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/extract_roi3_d_points__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/estimate_anthropometric_parameters__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/calculate_pose_from_cloud__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/segment_objects__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_object_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__type_support.cpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/check_object_visibility__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/include/robot_swiss_knife_msgs/robot_swiss_knife_msgs/srv/detail/get_fluent_assertions__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/environment/pythonpath.sh
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/environment/pythonpath.dsv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs-1.0.0-py3.10.egg-info
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action/_get_task_plan_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action/_query_vlm.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action/__init__.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action/_query_vlm_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action/_get_task_plan.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/_robot_swiss_knife_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_action.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_object.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_knowledge_item.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_knowledge_item_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_action_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_object_view.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_fluent.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_fluent_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_object_view_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_object_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/__init__.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/robot_swiss_knife_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/robot_swiss_knife_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_check_object_visibility_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_get_object_pose_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_extract_roi3_d_points.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_segment_objects.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_get_fluent_assertions.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_segment_objects_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_get_object_pose.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_estimate_anthropometric_parameters_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_extract_roi3_d_points_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_check_object_visibility.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_estimate_anthropometric_parameters.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_update_kb_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_get_fluent_assertions_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_calculate_pose_from_cloud_s.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/__init__.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_calculate_pose_from_cloud.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_update_kb.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/_robot_swiss_knife_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/_robot_swiss_knife_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/robot_swiss_knife_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/__init__.py
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/librobot_swiss_knife_msgs__rosidl_generator_py.so
+Listing '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/__init__.py'...
+Listing '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action/__init__.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action/_get_task_plan.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/action/_query_vlm.py'...
+Listing '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/__init__.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_action.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_fluent.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_knowledge_item.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_object.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/msg/_object_view.py'...
+Listing '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/__init__.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_calculate_pose_from_cloud.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_check_object_visibility.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_estimate_anthropometric_parameters.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_extract_roi3_d_points.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_get_fluent_assertions.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_get_object_pose.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_segment_objects.py'...
+Compiling '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/srv/_update_kb.py'...
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/robot_swiss_knife_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/robot_swiss_knife_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/robot_swiss_knife_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/robot_swiss_knife_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/robot_swiss_knife_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/local/lib/python3.10/dist-packages/robot_swiss_knife_msgs/robot_swiss_knife_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/librobot_swiss_knife_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/Cargo.toml
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/action
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/action/rmw.rs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/lib.rs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/msg/rmw.rs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/action.rs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/srv.rs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/srv/rmw.rs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/src/msg.rs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/rust/build.rs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/KnowledgeItem.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/Fluent.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/Action.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/ObjectView.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/Object.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/EstimateAnthropometricParameters.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/SegmentObjects.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/CheckObjectVisibility.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/ExtractROI3DPoints.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/CalculatePoseFromCloud.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/GetObjectPose.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/GetFluentAssertions.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/UpdateKB.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/action/QueryVLM.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/action/GetTaskPlan.idl
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/KnowledgeItem.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/Fluent.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/Action.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/ObjectView.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/msg/Object.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/EstimateAnthropometricParameters.srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/EstimateAnthropometricParameters_Request.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/EstimateAnthropometricParameters_Response.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/SegmentObjects.srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/SegmentObjects_Request.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/SegmentObjects_Response.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/CheckObjectVisibility.srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/CheckObjectVisibility_Request.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/CheckObjectVisibility_Response.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/ExtractROI3DPoints.srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/ExtractROI3DPoints_Request.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/ExtractROI3DPoints_Response.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/CalculatePoseFromCloud.srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/CalculatePoseFromCloud_Request.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/CalculatePoseFromCloud_Response.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/GetObjectPose.srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/GetObjectPose_Request.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/GetObjectPose_Response.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/GetFluentAssertions.srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/GetFluentAssertions_Request.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/GetFluentAssertions_Response.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/UpdateKB.srv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/UpdateKB_Request.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/srv/UpdateKB_Response.msg
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/action/QueryVLM.action
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/action/GetTaskPlan.action
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/ament_index/resource_index/package_run_dependencies/robot_swiss_knife_msgs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/ament_index/resource_index/parent_prefix_path/robot_swiss_knife_msgs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/environment/path.sh
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/environment/path.dsv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/local_setup.bash
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/local_setup.sh
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/local_setup.zsh
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/local_setup.dsv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.dsv
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/ament_index/resource_index/packages/robot_swiss_knife_msgs
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/export_robot_swiss_knife_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/export_robot_swiss_knife_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/export_robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/export_robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/export_robot_swiss_knife_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/export_robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/export_robot_swiss_knife_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/export_robot_swiss_knife_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/export_robot_swiss_knife_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgsConfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/cmake/robot_swiss_knife_msgsConfig-version.cmake
+-- Installing: /home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.xml

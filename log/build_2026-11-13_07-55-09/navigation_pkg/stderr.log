@@ -1,0 +1,85 @@
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:22:29:[m[K [01;31m[Kerror: [m[K‘[01m[Knavigation_interfaces[m[K’ does not name a type
+   22 |   void topic_callback(const [01;31m[Knavigation_interfaces[m[K::msg::Coord2d & message) const
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:22:55:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   22 |   void topic_callback(const navigation_interfaces::msg[01;31m[K::[m[KCoord2d & message) const
+      |                                                       [01;31m[K^~[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:22:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   22 |   void topic_callback[34m[K([m[Kconst navigation_interfaces::msg[01;31m[K:[m[K[32m[K:[m[KCoord2d & message) const
+      |                      [34m[K~[m[K                                [01;31m[K^[m[K[32m[K~[m[K
+      |                                                       [32m[K)[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:22:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   22 |   void topic_callback(const navigation_interfaces::[01;31m[Kmsg[m[K::Coord2d & message) const
+      |                                                    [01;31m[K^~~[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:22:57:[m[K [01;31m[Kerror: [m[K‘[01m[KCoord2d[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   22 |   void topic_callback(const navigation_interfaces::msg::[01;31m[KCoord2d[m[K & message) const
+      |                                                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:26:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knavigation_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Knavi_interfaces[m[K’?
+   26 |   rclcpp::Subscription<[01;31m[Knavigation_interfaces[m[K::msg::Coord2d>::SharedPtr subscription_;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Knavi_interfaces[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:26:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |   rclcpp::Subscription<navigation_interfaces::msg::Coord2d[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:26:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:26:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:26:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:26:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   26 |   rclcpp::Subscription<navigation_interfaces::msg::Coord2d>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                                       [32m[K;[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:26:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   26 |   rclcpp::Subscription<navigation_interfaces::msg::Coord2d>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                        [32m[Krmw_subscription_t[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:[m[K In constructor ‘[01m[KNaviSubscriber::NaviSubscriber()[m[K’:
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   17 |     [01;31m[Ksubscription_[m[K = this->create_subscription<navigation_interfaces::msg::Coord2d>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:17:47:[m[K [01;31m[Kerror: [m[K‘[01m[Knavigation_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Knavi_interfaces[m[K’?
+   17 |     subscription_ = this->create_subscription<[01;31m[Knavigation_interfaces[m[K::msg::Coord2d>(
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [32m[Knavi_interfaces[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:17:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   17 |     subscription_ = this->[01;31m[Kcreate_subscription<navigation_interfaces::msg::Coord2d>[m[K(
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:17:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNaviSubscriber::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (NaviSubscriber::*)(...), NaviSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   17 |     subscription_ = [01;31m[Kthis->create_subscription<navigation_interfaces::msg::Coord2d>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   18 | [01;31m[K      "topic", 10, std::bind(&NaviSubscriber::topic_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K           
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:17:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |     subscription_ = [01;31m[Kthis->create_subscription<navigation_interfaces::msg::Coord2d>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   18 | [01;31m[K      "topic", 10, std::bind(&NaviSubscriber::topic_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K           
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:32:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ was not declared in this scope; did you mean ‘[01m[KNaviSubscriber[m[K’?
+   32 |   rclcpp::spin(std::make_shared<[01;31m[KMinimalSubscriber[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[KNaviSubscriber[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:32:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   32 |   rclcpp::spin([01;31m[Kstd::make_shared<MinimalSubscriber>()[m[K);
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:32:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |   rclcpp::spin([01;31m[Kstd::make_shared<MinimalSubscriber>()[m[K);
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/navi_subscriber.dir/build.make:76: CMakeFiles/navi_subscriber.dir/src/navi_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/navi_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

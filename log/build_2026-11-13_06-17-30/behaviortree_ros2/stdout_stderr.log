@@ -1,0 +1,9 @@
+[ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/lucita/ssy236_ws/build/behaviortree_ros2/include/behaviortree_ros2/bt_executor_parameters.hpp /home/lucita/ssy236_ws/src/BehaviorTree.ROS2/behaviortree_ros2/src/bt_executor_parameters.yaml `[0m
+[ 28%] [34m[1mCreating deprecated header file /home/lucita/ssy236_ws/build/behaviortree_ros2/include/bt_executor_parameters.hpp[0m
+[ 28%] Built target bt_executor_parameters
+[ 57%] [32mBuilding CXX object CMakeFiles/behaviortree_ros2.dir/src/tree_execution_server.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/behaviortree_ros2.dir/src/bt_utils.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/behaviortree_ros2.dir/src/bt_ros2.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/behaviortree_ros2.dir/src/bt_ros_logger.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libbehaviortree_ros2.a[0m
+[100%] Built target behaviortree_ros2

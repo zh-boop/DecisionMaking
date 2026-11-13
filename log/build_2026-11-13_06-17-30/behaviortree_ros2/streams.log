@@ -1,0 +1,10 @@
+[0.047s] Invoking command in '/home/lucita/ssy236_ws/build/behaviortree_ros2': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lucita/ssy236_ws/build/behaviortree_ros2 -- -j32 -l32
+[0.094s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/lucita/ssy236_ws/build/behaviortree_ros2/include/behaviortree_ros2/bt_executor_parameters.hpp /home/lucita/ssy236_ws/src/BehaviorTree.ROS2/behaviortree_ros2/src/bt_executor_parameters.yaml `[0m
+[0.312s] [ 28%] [34m[1mCreating deprecated header file /home/lucita/ssy236_ws/build/behaviortree_ros2/include/bt_executor_parameters.hpp[0m
+[0.331s] [ 28%] Built target bt_executor_parameters
+[0.353s] [ 57%] [32mBuilding CXX object CMakeFiles/behaviortree_ros2.dir/src/tree_execution_server.cpp.o[0m
+[0.354s] [ 57%] [32mBuilding CXX object CMakeFiles/behaviortree_ros2.dir/src/bt_utils.cpp.o[0m
+[0.354s] [ 85%] [32mBuilding CXX object CMakeFiles/behaviortree_ros2.dir/src/bt_ros2.cpp.o[0m
+[0.354s] [ 85%] [32mBuilding CXX object CMakeFiles/behaviortree_ros2.dir/src/bt_ros_logger.cpp.o[0m
+[7.158s] [100%] [32m[1mLinking CXX static library libbehaviortree_ros2.a[0m
+[7.246s] [100%] Built target behaviortree_ros2

@@ -1,0 +1,1 @@
+Invoking command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake /home/lucita/ssy236_ws/src/ssy236-dependencies/gazebo_bbox_plugin -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/gazebo_bbox_plugin

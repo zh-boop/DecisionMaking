@@ -1,0 +1,116 @@
+[0.050s] Invoking command in '/home/lucita/ssy236_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake /home/lucita/ssy236_ws/navigation_pkg -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/navigation_pkg
+[0.133s] -- The C compiler identification is GNU 11.4.0
+[0.368s] -- The CXX compiler identification is GNU 11.4.0
+[0.535s] -- Detecting C compiler ABI info
+[0.632s] -- Detecting C compiler ABI info - done
+[0.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.636s] -- Detecting C compile features
+[0.636s] -- Detecting C compile features - done
+[0.638s] -- Detecting CXX compiler ABI info
+[0.751s] -- Detecting CXX compiler ABI info - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.757s] -- Detecting CXX compile features
+[0.757s] -- Detecting CXX compile features - done
+[0.759s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.869s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.937s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[1.045s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.049s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.056s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.128s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.133s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.843s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.651s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.358s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.378s] -- Looking for pthread.h
+[4.578s] -- Looking for pthread.h - found
+[4.581s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.860s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.861s] -- Found Threads: TRUE  
+[5.036s] -- Found navi_interfaces: 0.0.0 (/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake)
+[5.092s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.263s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.263s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lucita/ssy236_ws/navigation_pkg/include>
+[5.263s] -- Configured cppcheck exclude dirs and/or files: 
+[5.265s] -- Added test 'lint_cmake' to check CMake code style
+[5.267s] -- Added test 'uncrustify' to check C / C++ code style
+[5.267s] -- Configured uncrustify additional arguments: 
+[5.269s] -- Added test 'xmllint' to check XML markup files
+[5.272s] -- Configuring done
+[5.303s] -- Generating done
+[5.312s] -- Build files have been written to: /home/lucita/ssy236_ws/build/navigation_pkg
+[5.352s] Invoked command in '/home/lucita/ssy236_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake /home/lucita/ssy236_ws/navigation_pkg -DCMAKE_INSTALL_PREFIX=/home/lucita/ssy236_ws/install/navigation_pkg
+[5.355s] Invoking command in '/home/lucita/ssy236_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navigation_pkg -- -j32 -l32
+[5.439s] [ 50%] [32mBuilding CXX object CMakeFiles/navi_node.dir/src/navi_node.cpp.o[0m
+[5.847s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:26:86:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[5.847s]    26 | >get_logger(), "Publishing:"<< message.x << "," << message.y<<[01;35m[K"[m[K
+[5.847s]       |                                                               [01;35m[K^[m[K
+[5.847s] 
+[5.847s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:44:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[5.847s]    44 | }
+[5.847s]       |  [01;31m[K^[m[K
+[7.309s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:26:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[7.310s]    26 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing:"<< message.x << "," << message.y<<"
+[7.310s]       |                  [01;31m[K^[m[K
+[7.310s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:11:42:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[7.310s]    11 | class NaviPublisher : public rclcpp::Node[01;36m[K{[m[K
+[7.310s]       |                                          [01;36m[K^[m[K
+[7.310s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:[m[K In constructor ‘[01m[KNaviPublisher::NaviPublisher()[m[K’:
+[7.310s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:13:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[7.310s]    13 |     NaviPublisher() : Node(NaviPublisher[01;31m[K)[m[K,count(0){
+[7.310s]       |                                         [01;31m[K^[m[K
+[7.310s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:13:43:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KNaviPublisher[m[K’ does not have any field named ‘[01m[Kcount[m[K’
+[7.310s]    13 |     NaviPublisher() : Node(NaviPublisher),[01;31m[Kcount[m[K(0){
+[7.310s]       |                                           [01;31m[K^~~~~[m[K
+[7.314s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:14:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope; did you mean ‘[01m[KNaviPublisher[m[K’?
+[7.315s]    14 |       [01;31m[Kpublisher[m[K = this->create_publisher<navi_interfaces::msg::Coord2d.msg>("navi_topic",10);
+[7.315s]       |       [01;31m[K^~~~~~~~~[m[K
+[7.315s]       |       [32m[KNaviPublisher[m[K
+[7.315s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:14:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[7.315s]    14 |       publisher = this->[01;31m[Kcreate_publisher<navi_interfaces::msg::Coord2d.msg>[m[K("navi_topic",10);
+[7.315s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.315s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:14:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNaviPublisher::create_publisher<<expression error> >(const char [11], int)[m[K’
+[7.315s]    14 | [01;31m[K>create_publisher<navi_interfaces::msg::Coord2d.msg>("navi_topic",10)[m[K;
+[7.315s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[7.315s] 
+[7.315s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.315s]                  from [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:8[m[K:
+[7.315s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[7.316s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[7.316s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.316s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.316s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:14:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.316s]    14 | [01;31m[K>create_publisher<navi_interfaces::msg::Coord2d.msg>("navi_topic",10)[m[K;
+[7.316s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[7.316s] 
+[7.316s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:17:9:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[7.316s]    17 |         [01;31m[K500ms[m[K, std::bind(&NaviPublisher::timer_callback, this)
+[7.316s]       |         [01;31m[K^~~~~[m[K
+[7.316s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:17:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KNaviPublisher[m[K’
+[7.316s]    17 |         500ms, std::bind(&NaviPublisher::[01;31m[Ktimer_callback[m[K, this)
+[7.316s]       |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.316s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:[m[K In member function ‘[01m[Kvoid NaviPublisher::piblish_callback()[m[K’:
+[7.316s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:24:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass NaviPublisher[m[K’ has no member named ‘[01m[Kcount[m[K’
+[7.316s]    24 |       message.x = this->[01;31m[Kcount[m[K++;
+[7.316s]       |                         [01;31m[K^~~~~[m[K
+[7.319s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[7.319s]    26 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing:"<< message.x << "," << message.y<<"
+[7.319s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[7.319s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:26:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[7.319s]    26 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing:"<< message.x << "," << message.y<<"
+[7.319s]       |                  [01;31m[K^[m[K
+[7.319s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:22:28:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[7.319s]    22 |     void piblish_callback()[01;36m[K{[m[K
+[7.319s]       |                            [01;36m[K^[m[K
+[7.319s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:[m[K At global scope:
+[7.319s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:26:18:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[7.319s]    26 |       RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing:"<< message.x << "," << message.y<<"
+[7.319s]       |                  [01;31m[K^[m[K
+[7.738s] gmake[2]: *** [CMakeFiles/navi_node.dir/build.make:76: CMakeFiles/navi_node.dir/src/navi_node.cpp.o] Error 1
+[7.738s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navi_node.dir/all] Error 2
+[7.738s] gmake: *** [Makefile:146: all] Error 2
+[7.740s] Invoked command in '/home/lucita/ssy236_ws/build/navigation_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navigation_pkg -- -j32 -l32

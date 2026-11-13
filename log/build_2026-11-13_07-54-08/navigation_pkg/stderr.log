@@ -1,0 +1,55 @@
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Knavigation_interfaces/msg/Coord2d.hpp: No such file or directory
+    5 | #include [01;31m[K"navigation_interfaces/msg/Coord2d.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/navi_subscriber.dir/build.make:76: CMakeFiles/navi_subscriber.dir/src/navi_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/navi_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:8[m[K:
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:[m[K In member function ‘[01m[Kvoid NaviPublisher::publish_callback()[m[K’:
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:28:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   28 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: %d %d"[m[K, [32m[Kmessage.x[m[K, message.y);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+      |                                                                    [32m[K|[m[K
+      |                                                                    [32m[Kdouble[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:28:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   28 | P_INFO(this->get_logger(), "Publishing: [01;36m[K%d[m[K %d", message.x, message.y);
+      |                                         [01;36m[K~^[m[K
+      |                                          [01;36m[K|[m[K
+      |                                          [01;36m[Kint[m[K
+      |                                         [32m[K%f[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:8[m[K:
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:28:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   28 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: %d %d"[m[K, message.x, [32m[Kmessage.y[m[K);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K             [32m[K~~~~~~~~~[m[K
+      |                                                                               [32m[K|[m[K
+      |                                                                               [32m[Kdouble[m[K
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_node.cpp:28:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   28 | NFO(this->get_logger(), "Publishing: %d [01;36m[K%d[m[K", message.x, message.y);
+      |                                         [01;36m[K~^[m[K
+      |                                          [01;36m[K|[m[K
+      |                                          [01;36m[Kint[m[K
+      |                                         [32m[K%f[m[K
+gmake: *** [Makefile:146: all] Error 2

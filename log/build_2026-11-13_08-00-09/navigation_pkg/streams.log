@@ -1,0 +1,76 @@
+[0.013s] Invoking command in '/home/lucita/ssy236_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/navigation_pkg:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navigation_pkg -- -j32 -l32
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target navi_subscriber[0m
+[0.064s] [ 50%] Built target navi_node
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/navi_subscriber.dir/src/navi_subscriber.cpp.o[0m
+[1.865s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.865s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.866s]                  from [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:4[m[K:
+[1.866s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:[m[K In member function ‘[01m[Kvoid NaviSubscriber::topic_callback(const Coord2d&) const[m[K’:
+[1.866s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:24:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.866s]    24 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%d, %d'"[m[K, [32m[Kmessage.x[m[K, message.y);
+[1.866s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+[1.866s]       |                                                                  [32m[K|[m[K
+[1.866s]       |                                                                  [32m[Kdouble[m[K
+[1.866s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:24:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.866s]    24 |     RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%d[m[K, %d'", message.x, message.y);
+[1.866s]       |                                                [01;36m[K~^[m[K
+[1.866s]       |                                                 [01;36m[K|[m[K
+[1.866s]       |                                                 [01;36m[Kint[m[K
+[1.866s]       |                                                [32m[K%f[m[K
+[1.866s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.866s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.866s]                  from [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:4[m[K:
+[1.866s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:24:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.866s]    24 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%d, %d'"[m[K, message.x, [32m[Kmessage.y[m[K);
+[1.866s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K             [32m[K~~~~~~~~~[m[K
+[1.866s]       |                                                                             [32m[K|[m[K
+[1.866s]       |                                                                             [32m[Kdouble[m[K
+[1.867s] [01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:24:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.867s]    24 |     RCLCPP_INFO(this->get_logger(), "I heard: '%d, [01;36m[K%d[m[K'", message.x, message.y);
+[1.867s]       |                                                    [01;36m[K~^[m[K
+[1.867s]       |                                                     [01;36m[K|[m[K
+[1.867s]       |                                                     [01;36m[Kint[m[K
+[1.867s]       |                                                    [32m[K%f[m[K
+[5.551s] [100%] [32m[1mLinking CXX executable navi_subscriber[0m
+[5.913s] [100%] Built target navi_subscriber
+[5.922s] Invoked command in '/home/lucita/ssy236_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/navigation_pkg:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navigation_pkg -- -j32 -l32
+[5.924s] Invoking command in '/home/lucita/ssy236_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/navigation_pkg:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lucita/ssy236_ws/build/navigation_pkg
+[5.930s] -- Install configuration: ""
+[5.931s] -- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_node
+[5.934s] -- Set runtime path of "/home/lucita/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_node" to ""
+[5.935s] -- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_subscriber
+[5.939s] -- Set runtime path of "/home/lucita/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_subscriber" to ""
+[5.939s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/ament_index/resource_index/package_run_dependencies/navigation_pkg
+[5.940s] -- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/ament_index/resource_index/parent_prefix_path/navigation_pkg
+[5.941s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.sh
+[5.941s] -- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.dsv
+[5.941s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/path.sh
+[5.941s] -- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/path.dsv
+[5.942s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.bash
+[5.942s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.sh
+[5.942s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.zsh
+[5.942s] -- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.dsv
+[5.942s] -- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.dsv
+[5.943s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/ament_index/resource_index/packages/navigation_pkg
+[5.944s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig.cmake
+[5.944s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig-version.cmake
+[5.944s] -- Up-to-date: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.xml
+[5.946s] Invoked command in '/home/lucita/ssy236_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/navigation_pkg:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lucita/ssy236_ws/build/navigation_pkg

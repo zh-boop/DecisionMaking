@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target gazebo_bbox_plugin[0m
+[100%] Built target gazebo_bbox_plugin
+-- Install configuration: ""
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib/libgazebo_bbox_plugin.so
+-- Set runtime path of "/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib/libgazebo_bbox_plugin.so" to ""
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/environment/library_path.sh
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/environment/library_path.dsv
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/ament_index/resource_index/package_run_dependencies/gazebo_bbox_plugin
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/ament_index/resource_index/parent_prefix_path/gazebo_bbox_plugin
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/environment/ament_prefix_path.sh
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/environment/ament_prefix_path.dsv
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/environment/path.sh
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/environment/path.dsv
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/local_setup.bash
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/local_setup.sh
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/local_setup.zsh
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/local_setup.dsv
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.dsv
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/ament_index/resource_index/packages/gazebo_bbox_plugin
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/cmake/gazebo_bbox_pluginConfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/cmake/gazebo_bbox_pluginConfig-version.cmake
+-- Installing: /home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.xml

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target navi_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/navi_node.dir/src/navi_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable navi_node[0m
+[100%] Built target navi_node
+-- Install configuration: ""
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_node
+-- Set runtime path of "/home/lucita/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_node" to ""
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/ament_index/resource_index/package_run_dependencies/navigation_pkg
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/ament_index/resource_index/parent_prefix_path/navigation_pkg
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/path.sh
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/path.dsv
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.bash
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.sh
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.zsh
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.dsv
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.dsv
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/ament_index/resource_index/packages/navigation_pkg
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig.cmake
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig-version.cmake
+-- Installing: /home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.xml

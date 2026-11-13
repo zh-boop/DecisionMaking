@@ -1,0 +1,154 @@
+[0.024s] Invoking command in '/home/lucita/ssy236_ws/build/navi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navi_interfaces -- -j32 -l32
+[0.152s] [  3%] Built target navi_interfaces__cpp
+[0.154s] [  6%] Built target navi_interfaces__rs
+[0.158s] [ 15%] Built target navi_interfaces__rosidl_generator_c
+[0.167s] [ 15%] Built target ament_cmake_python_copy_navi_interfaces
+[0.190s] [ 25%] Built target navi_interfaces__rosidl_typesupport_cpp
+[0.191s] [ 34%] Built target navi_interfaces__rosidl_typesupport_c
+[0.192s] [ 53%] Built target navi_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.192s] [ 53%] Built target navi_interfaces__rosidl_typesupport_introspection_cpp
+[0.194s] [ 62%] Built target navi_interfaces__rosidl_typesupport_fastrtps_c
+[0.195s] [ 71%] Built target navi_interfaces__rosidl_typesupport_introspection_c
+[0.217s] [ 71%] Built target navi_interfaces
+[0.238s] [ 75%] Built target navi_interfaces__py
+[0.264s] [ 81%] Built target navi_interfaces__rosidl_generator_py
+[0.287s] [ 87%] Built target navi_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.287s] [ 93%] Built target navi_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.289s] [100%] Built target navi_interfaces__rosidl_typesupport_c__pyext
+[0.351s] running egg_info
+[0.352s] writing navi_interfaces.egg-info/PKG-INFO
+[0.352s] writing dependency_links to navi_interfaces.egg-info/dependency_links.txt
+[0.352s] writing top-level names to navi_interfaces.egg-info/top_level.txt
+[0.355s] reading manifest file 'navi_interfaces.egg-info/SOURCES.txt'
+[0.356s] writing manifest file 'navi_interfaces.egg-info/SOURCES.txt'
+[0.377s] [100%] Built target ament_cmake_python_build_navi_interfaces_egg
+[0.387s] Invoked command in '/home/lucita/ssy236_ws/build/navi_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navi_interfaces -- -j32 -l32
+[0.390s] Invoking command in '/home/lucita/ssy236_ws/build/navi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/navi_interfaces
+[0.398s] -- Install configuration: ""
+[0.400s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/ament_index/resource_index/rosidl_interfaces/navi_interfaces
+[0.400s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces
+[0.400s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg
+[0.400s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail
+[0.401s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__struct.h
+[0.401s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__type_support.h
+[0.401s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__functions.h
+[0.401s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__functions.c
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/coord2d.h
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/library_path.sh
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/library_path.dsv
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_generator_c.so
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__rosidl_typesupport_fastrtps_c.h
+[0.402s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.403s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.403s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces
+[0.403s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/coord2d.hpp
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__struct.hpp
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__traits.hpp
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__builder.hpp
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__type_support.hpp
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg
+[0.404s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail
+[0.405s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.405s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/dds_fastrtps
+[0.408s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.410s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.410s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces
+[0.410s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg
+[0.411s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.411s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail
+[0.411s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__rosidl_typesupport_introspection_c.h
+[0.411s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__type_support.c
+[0.413s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_introspection_c.so
+[0.413s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_c.so
+[0.414s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces
+[0.414s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg
+[0.414s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail
+[0.414s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__type_support.cpp
+[0.414s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__rosidl_typesupport_introspection_cpp.hpp
+[0.416s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.417s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_cpp.so
+[0.418s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/pythonpath.sh
+[0.418s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/pythonpath.dsv
+[0.418s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info
+[0.420s] -- Installing: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.420s] -- Installing: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.420s] -- Installing: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.420s] -- Installing: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.423s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces
+[0.423s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/_navi_interfaces_s.ep.rosidl_typesupport_c.c
+[0.423s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.424s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.424s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg
+[0.424s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg/_coord2d.py
+[0.424s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg/_coord2d_s.c
+[0.424s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg/__init__.py
+[0.425s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.425s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/_navi_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.425s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/libnavi_interfaces__rosidl_generator_py.so
+[0.425s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/_navi_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.425s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/__init__.py
+[0.470s] Listing '/home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces'...
+[0.470s] Listing '/home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg'...
+[0.471s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.471s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.471s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.471s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_generator_py.so
+[0.472s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust
+[0.473s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/Cargo.toml
+[0.473s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src
+[0.473s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src/lib.rs
+[0.474s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src/msg
+[0.474s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src/msg/rmw.rs
+[0.474s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src/msg.rs
+[0.475s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/build.rs
+[0.475s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/msg/Coord2d.idl
+[0.476s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/msg/Coord2d.msg
+[0.476s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/ament_index/resource_index/package_run_dependencies/navi_interfaces
+[0.476s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/ament_index/resource_index/parent_prefix_path/navi_interfaces
+[0.477s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/ament_prefix_path.sh
+[0.477s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/ament_prefix_path.dsv
+[0.477s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/path.sh
+[0.477s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/path.dsv
+[0.477s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/local_setup.bash
+[0.478s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/local_setup.sh
+[0.478s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/local_setup.zsh
+[0.479s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/local_setup.dsv
+[0.479s] -- Installing: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.dsv
+[0.479s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/ament_index/resource_index/packages/navi_interfaces
+[0.479s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_cExport.cmake
+[0.479s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.480s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.480s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.480s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_cppExport.cmake
+[0.482s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.483s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.483s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.484s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.484s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_cExport.cmake
+[0.484s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.484s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.485s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.485s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_cppExport.cmake
+[0.486s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.486s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_pyExport.cmake
+[0.486s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.487s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.487s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.487s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.487s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.487s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.487s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.488s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.488s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[0.488s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfacesConfig.cmake
+[0.488s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfacesConfig-version.cmake
+[0.488s] -- Up-to-date: /home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.xml
+[0.489s] Invoked command in '/home/lucita/ssy236_ws/build/navi_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/navi_interfaces

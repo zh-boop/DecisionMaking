@@ -1,0 +1,7 @@
+[01m[K/home/lucita/ssy236_ws/navigation_pkg/src/navi_subscriber.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Knavi_interfaces/msg/Coord2d.hpp: No such file or directory
+    5 | #include [01;31m[K"navi_interfaces/msg/Coord2d.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/navi_subscriber.dir/build.make:76: CMakeFiles/navi_subscriber.dir/src/navi_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/navi_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

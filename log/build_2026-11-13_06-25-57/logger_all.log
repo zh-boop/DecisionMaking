@@ -1,0 +1,579 @@
+[0.355s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.355s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74bbc505f9d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74bbc505f4f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74bbc505f4f0>>, mixin_verb=('build',))
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.627s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lucita/ssy236_ws'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(navi_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(navi_interfaces) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(navi_interfaces) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(navi_interfaces) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(navi_interfaces) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(navi_interfaces) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(navi_interfaces) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(navi_interfaces) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(navi_interfaces) by extension 'ros'
+[0.645s] DEBUG:colcon.colcon_core.package_identification:Package 'navi_interfaces' with type 'ros.ament_cmake' and name 'navi_interfaces'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_pkg) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_pkg) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_pkg) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_pkg) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_pkg) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_pkg) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_pkg) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(navigation_pkg) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation_pkg' with type 'ros.ament_cmake' and name 'navigation_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extension 'cmake'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extension 'python'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extensions ['python_setup_py']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/behaviortree_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/behaviortree_ros2) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/behaviortree_ros2) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/behaviortree_ros2) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/behaviortree_ros2) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/behaviortree_ros2) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/behaviortree_ros2) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/behaviortree_ros2) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/behaviortree_ros2) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'src/BehaviorTree.ROS2/behaviortree_ros2' with type 'ros.ament_cmake' and name 'behaviortree_ros2'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_interfaces) by extension 'ros'
+[0.658s] DEBUG:colcon.colcon_core.package_identification:Package 'src/BehaviorTree.ROS2/btcpp_ros2_interfaces' with type 'ros.ament_cmake' and name 'btcpp_ros2_interfaces'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_samples) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_samples) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_samples) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_samples) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/BehaviorTree.ROS2/btcpp_ros2_samples) by extension 'ros'
+[0.659s] DEBUG:colcon.colcon_core.package_identification:Package 'src/BehaviorTree.ROS2/btcpp_ros2_samples' with type 'ros.ament_cmake' and name 'btcpp_ros2_samples'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_models) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_models) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_models) ignored
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extension 'ros'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extensions ['cmake', 'python']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extension 'cmake'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extension 'python'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extensions ['python_setup_py']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies) by extension 'python_setup_py'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/gazebo_bbox_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/gazebo_bbox_plugin) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/gazebo_bbox_plugin) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/gazebo_bbox_plugin) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/gazebo_bbox_plugin) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/gazebo_bbox_plugin) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/gazebo_bbox_plugin) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/gazebo_bbox_plugin) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/gazebo_bbox_plugin) by extension 'ros'
+[0.662s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ssy236-dependencies/gazebo_bbox_plugin' with type 'ros.ament_cmake' and name 'gazebo_bbox_plugin'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/kb_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/kb_interface) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/kb_interface) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/kb_interface) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/kb_interface) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/kb_interface) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/kb_interface) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/kb_interface) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/kb_interface) by extension 'ros'
+[0.663s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ssy236-dependencies/kb_interface' with type 'ros.ament_python' and name 'kb_interface'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/robot_swiss_knife_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/robot_swiss_knife_msgs) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/robot_swiss_knife_msgs) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/robot_swiss_knife_msgs) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/robot_swiss_knife_msgs) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/robot_swiss_knife_msgs) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/robot_swiss_knife_msgs) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/robot_swiss_knife_msgs) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssy236-dependencies/robot_swiss_knife_msgs) by extension 'ros'
+[0.664s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ssy236-dependencies/robot_swiss_knife_msgs' with type 'ros.ament_cmake' and name 'robot_swiss_knife_msgs'
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.696s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lucita/ssy236_ws/install/btcpp_ros2_samples' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.697s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lucita/ssy236_ws/install/btcpp_ros2_samples' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.699s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/lucita/ssy236_ws/install
+[0.703s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 500 installed packages in /opt/ros/humble
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.859s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.860s] DEBUG:colcon.colcon_core.verb:Building package 'btcpp_ros2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces', 'merge_install': False, 'path': '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bbox_plugin' build argument 'cmake_args' from command line to 'None'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bbox_plugin' build argument 'cmake_target' from command line to 'None'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bbox_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bbox_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bbox_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bbox_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bbox_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bbox_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'gazebo_bbox_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.860s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_bbox_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin', 'merge_install': False, 'path': '/home/lucita/ssy236_ws/src/ssy236-dependencies/gazebo_bbox_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'navi_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'navi_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'navi_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'navi_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'navi_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'navi_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.860s] Level 5:colcon.colcon_core.verb:set package 'navi_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'navi_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'navi_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.861s] DEBUG:colcon.colcon_core.verb:Building package 'navi_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucita/ssy236_ws/build/navi_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucita/ssy236_ws/install/navi_interfaces', 'merge_install': False, 'path': '/home/lucita/ssy236_ws/navi_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'robot_swiss_knife_msgs' build argument 'cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'robot_swiss_knife_msgs' build argument 'cmake_target' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'robot_swiss_knife_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'robot_swiss_knife_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'robot_swiss_knife_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'robot_swiss_knife_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'robot_swiss_knife_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'robot_swiss_knife_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'robot_swiss_knife_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.861s] DEBUG:colcon.colcon_core.verb:Building package 'robot_swiss_knife_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs', 'merge_install': False, 'path': '/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_ros2' build argument 'cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_ros2' build argument 'cmake_target' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.861s] Level 5:colcon.colcon_core.verb:set package 'behaviortree_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.861s] DEBUG:colcon.colcon_core.verb:Building package 'behaviortree_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucita/ssy236_ws/build/behaviortree_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucita/ssy236_ws/install/behaviortree_ros2', 'merge_install': False, 'path': '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/behaviortree_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'kb_interface' build argument 'cmake_args' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'kb_interface' build argument 'cmake_target' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'kb_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'kb_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'kb_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'kb_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'kb_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'kb_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'kb_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.862s] DEBUG:colcon.colcon_core.verb:Building package 'kb_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucita/ssy236_ws/build/kb_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucita/ssy236_ws/install/kb_interface', 'merge_install': False, 'path': '/home/lucita/ssy236_ws/src/ssy236-dependencies/kb_interface', 'symlink_install': False, 'test_result_base': None}
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_args' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_target' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.862s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucita/ssy236_ws/build/navigation_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucita/ssy236_ws/install/navigation_pkg', 'merge_install': False, 'path': '/home/lucita/ssy236_ws/navigation_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_samples' build argument 'cmake_args' from command line to 'None'
+[0.862s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_samples' build argument 'cmake_target' from command line to 'None'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_samples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_samples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_samples' build argument 'cmake_clean_first' from command line to 'False'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_samples' build argument 'cmake_force_configure' from command line to 'False'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_samples' build argument 'ament_cmake_args' from command line to 'None'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_samples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.863s] Level 5:colcon.colcon_core.verb:set package 'btcpp_ros2_samples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.863s] DEBUG:colcon.colcon_core.verb:Building package 'btcpp_ros2_samples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucita/ssy236_ws/build/btcpp_ros2_samples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucita/ssy236_ws/install/btcpp_ros2_samples', 'merge_install': False, 'path': '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_samples', 'symlink_install': False, 'test_result_base': None}
+[0.863s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.864s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces' with build type 'ament_cmake'
+[0.864s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_interfaces'
+[0.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.875s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucita/ssy236_ws/navi_interfaces' with build type 'ament_cmake'
+[0.875s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucita/ssy236_ws/navi_interfaces'
+[0.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs' with build type 'ament_cmake'
+[0.879s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucita/ssy236_ws/src/ssy236-dependencies/robot_swiss_knife_msgs'
+[0.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.883s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucita/ssy236_ws/src/ssy236-dependencies/gazebo_bbox_plugin' with build type 'ament_cmake'
+[0.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucita/ssy236_ws/src/ssy236-dependencies/gazebo_bbox_plugin'
+[0.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/btcpp_ros2_interfaces -- -j32 -l32
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/navi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navi_interfaces -- -j32 -l32
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/robot_swiss_knife_msgs -- -j32 -l32
+[0.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/gazebo_bbox_plugin -- -j32 -l32
+[1.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/gazebo_bbox_plugin -- -j32 -l32
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/gazebo_bbox_plugin
+[1.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_bbox_plugin)
+[1.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/gazebo_bbox_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/gazebo_bbox_plugin
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin' for CMake module files
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin' for CMake config files
+[1.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_bbox_plugin', 'cmake_prefix_path')
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/cmake_prefix_path.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/cmake_prefix_path.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/cmake_prefix_path.sh'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib'
+[1.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_bbox_plugin', 'ld_library_path_lib')
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/ld_library_path_lib.ps1'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/ld_library_path_lib.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/ld_library_path_lib.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib/pkgconfig/gazebo_bbox_plugin.pc'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib/python3.10/site-packages'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/bin'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.sh'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.bash'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.zsh'
+[1.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/colcon-core/packages/gazebo_bbox_plugin)
+[1.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_bbox_plugin)
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin' for CMake module files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin' for CMake config files
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_bbox_plugin', 'cmake_prefix_path')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/cmake_prefix_path.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/cmake_prefix_path.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/cmake_prefix_path.sh'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib'
+[1.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_bbox_plugin', 'ld_library_path_lib')
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/ld_library_path_lib.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/ld_library_path_lib.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/hook/ld_library_path_lib.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/bin'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib/pkgconfig/gazebo_bbox_plugin.pc'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib/python3.10/site-packages'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/bin'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.ps1'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.dsv'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.sh'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.bash'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/gazebo_bbox_plugin/package.zsh'
+[1.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/share/colcon-core/packages/gazebo_bbox_plugin)
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/navi_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navi_interfaces -- -j32 -l32
+[1.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/navi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/navi_interfaces
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/btcpp_ros2_interfaces -- -j32 -l32
+[1.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/btcpp_ros2_interfaces
+[1.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/robot_swiss_knife_msgs -- -j32 -l32
+[1.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/robot_swiss_knife_msgs
+[1.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(btcpp_ros2_interfaces)
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces' for CMake module files
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces' for CMake config files
+[1.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('btcpp_ros2_interfaces', 'cmake_prefix_path')
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/cmake_prefix_path.sh'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib'
+[1.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('btcpp_ros2_interfaces', 'ld_library_path_lib')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/ld_library_path_lib.sh'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/bin'
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/pkgconfig/btcpp_ros2_interfaces.pc'
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/python3.10/site-packages'
+[1.379s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/bin'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.dsv'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.sh'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.bash'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.zsh'
+[1.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/colcon-core/packages/btcpp_ros2_interfaces)
+[1.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(btcpp_ros2_interfaces)
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces' for CMake module files
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces' for CMake config files
+[1.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('btcpp_ros2_interfaces', 'cmake_prefix_path')
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[1.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/cmake_prefix_path.sh'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib'
+[1.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('btcpp_ros2_interfaces', 'ld_library_path_lib')
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[1.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/hook/ld_library_path_lib.sh'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/bin'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/pkgconfig/btcpp_ros2_interfaces.pc'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib/python3.10/site-packages'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/bin'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.ps1'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.dsv'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.sh'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.bash'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.zsh'
+[1.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/share/colcon-core/packages/btcpp_ros2_interfaces)
+[1.412s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/behaviortree_ros2' with build type 'ament_cmake'
+[1.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/behaviortree_ros2'
+[1.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/btcpp_ros2_interfaces
+[1.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navi_interfaces)
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces' for CMake module files
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces' for CMake config files
+[1.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('navi_interfaces', 'cmake_prefix_path')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/cmake_prefix_path.ps1'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/cmake_prefix_path.dsv'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/cmake_prefix_path.sh'
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/lib'
+[1.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('navi_interfaces', 'ld_library_path_lib')
+[1.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/ld_library_path_lib.ps1'
+[1.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/ld_library_path_lib.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/ld_library_path_lib.sh'
+[1.457s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/bin'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/lib/pkgconfig/navi_interfaces.pc'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/lib/python3.10/site-packages'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/bin'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.dsv'
+[1.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/navi_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/navi_interfaces
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.sh'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.bash'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.zsh'
+[1.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/navi_interfaces/share/colcon-core/packages/navi_interfaces)
+[1.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navi_interfaces)
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces' for CMake module files
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces' for CMake config files
+[1.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('navi_interfaces', 'cmake_prefix_path')
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/cmake_prefix_path.ps1'
+[1.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/cmake_prefix_path.dsv'
+[1.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/cmake_prefix_path.sh'
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/lib'
+[1.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('navi_interfaces', 'ld_library_path_lib')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/ld_library_path_lib.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/ld_library_path_lib.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/hook/ld_library_path_lib.sh'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/bin'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/lib/pkgconfig/navi_interfaces.pc'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/lib/python3.10/site-packages'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navi_interfaces/bin'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.ps1'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.sh'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.bash'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.zsh'
+[1.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/navi_interfaces/share/colcon-core/packages/navi_interfaces)
+[1.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucita/ssy236_ws/navigation_pkg' with build type 'ament_cmake'
+[1.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucita/ssy236_ws/navigation_pkg'
+[1.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_swiss_knife_msgs)
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs' for CMake module files
+[1.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/robot_swiss_knife_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --install /home/lucita/ssy236_ws/build/robot_swiss_knife_msgs
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs' for CMake config files
+[1.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_swiss_knife_msgs', 'cmake_prefix_path')
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/cmake_prefix_path.ps1'
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/cmake_prefix_path.dsv'
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/cmake_prefix_path.sh'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib'
+[1.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_swiss_knife_msgs', 'ld_library_path_lib')
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/ld_library_path_lib.ps1'
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/ld_library_path_lib.dsv'
+[1.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/ld_library_path_lib.sh'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/bin'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/pkgconfig/robot_swiss_knife_msgs.pc'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/python3.10/site-packages'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/bin'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.ps1'
+[1.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.sh'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.bash'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.zsh'
+[1.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/colcon-core/packages/robot_swiss_knife_msgs)
+[1.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_swiss_knife_msgs)
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs' for CMake module files
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs' for CMake config files
+[1.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_swiss_knife_msgs', 'cmake_prefix_path')
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/cmake_prefix_path.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/cmake_prefix_path.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/cmake_prefix_path.sh'
+[1.490s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib'
+[1.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_swiss_knife_msgs', 'ld_library_path_lib')
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/ld_library_path_lib.ps1'
+[1.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/ld_library_path_lib.dsv'
+[1.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/hook/ld_library_path_lib.sh'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/bin'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/pkgconfig/robot_swiss_knife_msgs.pc'
+[1.492s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib/python3.10/site-packages'
+[1.492s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/bin'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.ps1'
+[1.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.dsv'
+[1.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.sh'
+[1.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.bash'
+[1.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/robot_swiss_knife_msgs/package.zsh'
+[1.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/share/colcon-core/packages/robot_swiss_knife_msgs)
+[1.496s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucita/ssy236_ws/src/ssy236-dependencies/kb_interface' with build type 'ament_python'
+[1.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('kb_interface', 'ament_prefix_path')
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/hook/ament_prefix_path.ps1'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/hook/ament_prefix_path.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/hook/ament_prefix_path.sh'
+[1.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/behaviortree_ros2': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lucita/ssy236_ws/build/behaviortree_ros2 -- -j32 -l32
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navigation_pkg -- -j32 -l32
+[1.737s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucita/ssy236_ws/src/ssy236-dependencies/kb_interface'
+[1.738s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.738s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/behaviortree_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lucita/ssy236_ws/build/behaviortree_ros2 -- -j32 -l32
+[1.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/behaviortree_ros2': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lucita/ssy236_ws/build/behaviortree_ros2
+[1.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(behaviortree_ros2)
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2' for CMake module files
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2' for CMake config files
+[1.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/behaviortree_ros2' returned '0': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lucita/ssy236_ws/build/behaviortree_ros2
+[1.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_ros2', 'cmake_prefix_path')
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/hook/cmake_prefix_path.ps1'
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/hook/cmake_prefix_path.dsv'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/hook/cmake_prefix_path.sh'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/lib'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/bin'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/lib/pkgconfig/behaviortree_ros2.pc'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/lib/python3.10/site-packages'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/bin'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.ps1'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.dsv'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.sh'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.bash'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.zsh'
+[1.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/behaviortree_ros2/share/colcon-core/packages/behaviortree_ros2)
+[1.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(behaviortree_ros2)
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2' for CMake module files
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2' for CMake config files
+[1.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('behaviortree_ros2', 'cmake_prefix_path')
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/hook/cmake_prefix_path.ps1'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/hook/cmake_prefix_path.dsv'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/hook/cmake_prefix_path.sh'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/lib'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/bin'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/lib/pkgconfig/behaviortree_ros2.pc'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/lib/python3.10/site-packages'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/behaviortree_ros2/bin'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.sh'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.bash'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/behaviortree_ros2/share/behaviortree_ros2/package.zsh'
+[1.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/behaviortree_ros2/share/colcon-core/packages/behaviortree_ros2)
+[1.772s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_samples' with build type 'ament_cmake'
+[1.772s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucita/ssy236_ws/src/BehaviorTree.ROS2/btcpp_ros2_samples'
+[1.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/build/btcpp_ros2_samples': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces:/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lucita/ssy236_ws/build/btcpp_ros2_samples -- -j32 -l32
+[2.288s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: update_catalog, upload, install_data, easy_install, dist_info, clean, bdist_egg, saveopts, bdist, install, bdist_rpm, develop, build, setopt, extract_messages, compile_catalog, egg_info, install_headers, sdist, upload_docs, build_py, check, install_scripts, build_scripts, bdist_wheel, test, build_clib, alias, register, rotate, build_ext, install_lib, bdist_dumb, init_catalog, symlink_data, install_egg_info
+[2.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucita/ssy236_ws/src/ssy236-dependencies/kb_interface': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lucita/ssy236_ws/build/kb_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/kb_interface build --build-base /home/lucita/ssy236_ws/build/kb_interface/build install --record /home/lucita/ssy236_ws/build/kb_interface/install.log --install-scripts $base/lib/kb_interface --single-version-externally-managed install_data
+[2.561s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/kb_interface' for CMake module files
+[2.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/src/ssy236-dependencies/kb_interface' returned '0': CMAKE_PREFIX_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs:/home/lucita/ssy236_ws/install/navi_interfaces:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin:/home/lucita/ssy236_ws/install/btcpp_ros2_samples:/home/lucita/ssy236_ws/install/behaviortree_ros2:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces LD_LIBRARY_PATH=/home/lucita/ssy236_ws/install/robot_swiss_knife_msgs/lib:/home/lucita/ssy236_ws/install/navi_interfaces/lib:/home/lucita/ssy236_ws/install/gazebo_bbox_plugin/lib:/home/lucita/ssy236_ws/install/behaviortree_ros2/lib:/home/lucita/ssy236_ws/install/btcpp_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lucita/ssy236_ws/build/kb_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/kb_interface build --build-base /home/lucita/ssy236_ws/build/kb_interface/build install --record /home/lucita/ssy236_ws/build/kb_interface/install.log --install-scripts $base/lib/kb_interface --single-version-externally-managed install_data
+[2.562s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/kb_interface' for CMake config files
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/kb_interface/lib'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/kb_interface/bin'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/kb_interface/lib/pkgconfig/kb_interface.pc'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/kb_interface/lib/python3.10/site-packages'
+[2.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('kb_interface', 'pythonpath')
+[2.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/hook/pythonpath.ps1'
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/hook/pythonpath.dsv'
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/hook/pythonpath.sh'
+[2.566s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/kb_interface/bin'
+[2.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kb_interface)
+[2.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/package.ps1'
+[2.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/package.dsv'
+[2.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/package.sh'
+[2.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/package.bash'
+[2.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/kb_interface/share/kb_interface/package.zsh'
+[2.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/kb_interface/share/colcon-core/packages/kb_interface)
+[5.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucita/ssy236_ws/build/navigation_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lucita/ssy236_ws/install/kb_interface:/opt/ros/humble /usr/bin/cmake --build /home/lucita/ssy236_ws/build/navigation_pkg -- -j32 -l32
+[5.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_pkg)
+[5.417s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navigation_pkg' for CMake module files
+[5.417s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navigation_pkg' for CMake config files
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navigation_pkg/bin'
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navigation_pkg/lib/pkgconfig/navigation_pkg.pc'
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navigation_pkg/lib/python3.10/site-packages'
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/lucita/ssy236_ws/install/navigation_pkg/bin'
+[5.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.ps1'
+[5.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.dsv'
+[5.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.sh'
+[5.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.bash'
+[5.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucita/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.zsh'
+[5.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucita/ssy236_ws/install/navigation_pkg/share/colcon-core/packages/navigation_pkg)
+[14.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[14.415s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.457s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.457s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.458s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.458s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[14.458s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.458s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucita/ssy236_ws/install/local_setup.ps1'
+[14.461s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucita/ssy236_ws/install/_local_setup_util_ps1.py'
+[14.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucita/ssy236_ws/install/setup.ps1'
+[14.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucita/ssy236_ws/install/local_setup.sh'
+[14.466s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucita/ssy236_ws/install/_local_setup_util_sh.py'
+[14.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucita/ssy236_ws/install/setup.sh'
+[14.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucita/ssy236_ws/install/local_setup.bash'
+[14.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucita/ssy236_ws/install/setup.bash'
+[14.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucita/ssy236_ws/install/local_setup.zsh'
+[14.471s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucita/ssy236_ws/install/setup.zsh'
